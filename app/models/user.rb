@@ -1,5 +1,6 @@
 class User < ApplicationRecord
-
+    has_many :portfolios
+    has_many :tickers, through: :portfolios
     
     has_secure_password
 

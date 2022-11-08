@@ -10,21 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_25_160908) do
-  create_table "essays", force: :cascade do |t|
-    t.text "content"
-    t.text "prompt"
-    t.text "tone_comments"
-    t.text "flow_comments"
-    t.text "overall_comments"
-    t.string "length"
-    t.boolean "is_reviewed"
+ActiveRecord::Schema[7.0].define(version: 2022_11_07_221356) do
+  create_table "portfolios", force: :cascade do |t|
+    t.string "name"
     t.integer "user_id", null: false
-    t.integer "reviewer_id"
+    t.float "value"
+    t.datetime "last_seen"
+    t.float "change"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["reviewer_id"], name: "index_essays_on_reviewer_id"
-    t.index ["user_id"], name: "index_essays_on_user_id"
+    t.index ["user_id"], name: "index_portfolios_on_user_id"
+  end
+
+  create_table "portfolios_tickers", id: false, force: :cascade do |t|
+    t.integer "portfolio_id", null: false
+    t.integer "ticker_id", null: false
+  end
+
+  create_table "tickers", force: :cascade do |t|
+    t.string "name"
+    t.string "full_name"
+    t.integer "shares_owned"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -35,6 +43,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_25_160908) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "essays", "users"
-  add_foreign_key "essays", "users", column: "reviewer_id"
+  add_foreign_key "portfolios", "users"
 end

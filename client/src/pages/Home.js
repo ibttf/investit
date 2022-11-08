@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 import "../styles/Home.css";
 const Home = ({ user, setUser }) => {
@@ -11,11 +10,8 @@ const Home = ({ user, setUser }) => {
     });
   }
   if (user) {
-    return (
-      <div className="home">
-        <button onClick={handleLogoutClick}>Logout</button>
-      </div>
-    );
+    //IF USER IS LOGGED IN
+    return <div className="home"></div>;
   }
 
   return <div className="home"></div>;
