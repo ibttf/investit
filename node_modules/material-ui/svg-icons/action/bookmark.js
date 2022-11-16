@@ -27,6 +27,5 @@ var ActionBookmark = function ActionBookmark(props) {
 };
 ActionBookmark = (0, _pure2.default)(ActionBookmark);
 ActionBookmark.displayName = 'ActionBookmark';
-ActionBookmark.muiName = 'SvgIcon';
 
 exports.default = ActionBookmark;

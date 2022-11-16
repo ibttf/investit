@@ -27,6 +27,5 @@ var EditorVerticalAlignBottom = function EditorVerticalAlignBottom(props) {
 };
 EditorVerticalAlignBottom = (0, _pure2.default)(EditorVerticalAlignBottom);
 EditorVerticalAlignBottom.displayName = 'EditorVerticalAlignBottom';
-EditorVerticalAlignBottom.muiName = 'SvgIcon';
 
 exports.default = EditorVerticalAlignBottom;

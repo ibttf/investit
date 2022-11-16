@@ -27,6 +27,5 @@ var ImageFilterCenterFocus = function ImageFilterCenterFocus(props) {
 };
 ImageFilterCenterFocus = (0, _pure2.default)(ImageFilterCenterFocus);
 ImageFilterCenterFocus.displayName = 'ImageFilterCenterFocus';
-ImageFilterCenterFocus.muiName = 'SvgIcon';
 
 exports.default = ImageFilterCenterFocus;

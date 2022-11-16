@@ -27,6 +27,5 @@ var MapsLocalCafe = function MapsLocalCafe(props) {
 };
 MapsLocalCafe = (0, _pure2.default)(MapsLocalCafe);
 MapsLocalCafe.displayName = 'MapsLocalCafe';
-MapsLocalCafe.muiName = 'SvgIcon';
 
 exports.default = MapsLocalCafe;

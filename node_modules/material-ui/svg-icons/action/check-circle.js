@@ -27,6 +27,5 @@ var ActionCheckCircle = function ActionCheckCircle(props) {
 };
 ActionCheckCircle = (0, _pure2.default)(ActionCheckCircle);
 ActionCheckCircle.displayName = 'ActionCheckCircle';
-ActionCheckCircle.muiName = 'SvgIcon';
 
 exports.default = ActionCheckCircle;

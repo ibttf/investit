@@ -27,6 +27,5 @@ var ActionList = function ActionList(props) {
 };
 ActionList = (0, _pure2.default)(ActionList);
 ActionList.displayName = 'ActionList';
-ActionList.muiName = 'SvgIcon';
 
 exports.default = ActionList;

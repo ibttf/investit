@@ -27,6 +27,5 @@ var AvLoop = function AvLoop(props) {
 };
 AvLoop = (0, _pure2.default)(AvLoop);
 AvLoop.displayName = 'AvLoop';
-AvLoop.muiName = 'SvgIcon';
 
 exports.default = AvLoop;

@@ -27,6 +27,5 @@ var ImageColorize = function ImageColorize(props) {
 };
 ImageColorize = (0, _pure2.default)(ImageColorize);
 ImageColorize.displayName = 'ImageColorize';
-ImageColorize.muiName = 'SvgIcon';
 
 exports.default = ImageColorize;

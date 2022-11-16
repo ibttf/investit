@@ -27,6 +27,5 @@ var NotificationSmsFailed = function NotificationSmsFailed(props) {
 };
 NotificationSmsFailed = (0, _pure2.default)(NotificationSmsFailed);
 NotificationSmsFailed.displayName = 'NotificationSmsFailed';
-NotificationSmsFailed.muiName = 'SvgIcon';
 
 exports.default = NotificationSmsFailed;

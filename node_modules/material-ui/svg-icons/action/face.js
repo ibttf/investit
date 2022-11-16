@@ -27,6 +27,5 @@ var ActionFace = function ActionFace(props) {
 };
 ActionFace = (0, _pure2.default)(ActionFace);
 ActionFace.displayName = 'ActionFace';
-ActionFace.muiName = 'SvgIcon';
 
 exports.default = ActionFace;

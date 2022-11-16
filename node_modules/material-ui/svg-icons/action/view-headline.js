@@ -27,6 +27,5 @@ var ActionViewHeadline = function ActionViewHeadline(props) {
 };
 ActionViewHeadline = (0, _pure2.default)(ActionViewHeadline);
 ActionViewHeadline.displayName = 'ActionViewHeadline';
-ActionViewHeadline.muiName = 'SvgIcon';
 
 exports.default = ActionViewHeadline;

@@ -27,6 +27,5 @@ var ActionTurnedInNot = function ActionTurnedInNot(props) {
 };
 ActionTurnedInNot = (0, _pure2.default)(ActionTurnedInNot);
 ActionTurnedInNot.displayName = 'ActionTurnedInNot';
-ActionTurnedInNot.muiName = 'SvgIcon';
 
 exports.default = ActionTurnedInNot;

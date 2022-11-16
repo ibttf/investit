@@ -27,6 +27,5 @@ var ImageFlip = function ImageFlip(props) {
 };
 ImageFlip = (0, _pure2.default)(ImageFlip);
 ImageFlip.displayName = 'ImageFlip';
-ImageFlip.muiName = 'SvgIcon';
 
 exports.default = ImageFlip;

@@ -27,6 +27,5 @@ var ToggleIndeterminateCheckBox = function ToggleIndeterminateCheckBox(props) {
 };
 ToggleIndeterminateCheckBox = (0, _pure2.default)(ToggleIndeterminateCheckBox);
 ToggleIndeterminateCheckBox.displayName = 'ToggleIndeterminateCheckBox';
-ToggleIndeterminateCheckBox.muiName = 'SvgIcon';
 
 exports.default = ToggleIndeterminateCheckBox;

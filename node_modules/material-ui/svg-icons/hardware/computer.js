@@ -27,6 +27,5 @@ var HardwareComputer = function HardwareComputer(props) {
 };
 HardwareComputer = (0, _pure2.default)(HardwareComputer);
 HardwareComputer.displayName = 'HardwareComputer';
-HardwareComputer.muiName = 'SvgIcon';
 
 exports.default = HardwareComputer;

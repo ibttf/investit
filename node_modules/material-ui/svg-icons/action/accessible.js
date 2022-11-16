@@ -28,6 +28,5 @@ var ActionAccessible = function ActionAccessible(props) {
 };
 ActionAccessible = (0, _pure2.default)(ActionAccessible);
 ActionAccessible.displayName = 'ActionAccessible';
-ActionAccessible.muiName = 'SvgIcon';
 
 exports.default = ActionAccessible;

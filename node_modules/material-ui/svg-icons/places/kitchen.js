@@ -27,6 +27,5 @@ var PlacesKitchen = function PlacesKitchen(props) {
 };
 PlacesKitchen = (0, _pure2.default)(PlacesKitchen);
 PlacesKitchen.displayName = 'PlacesKitchen';
-PlacesKitchen.muiName = 'SvgIcon';
 
 exports.default = PlacesKitchen;

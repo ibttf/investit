@@ -29,6 +29,5 @@ var PlacesChildCare = function PlacesChildCare(props) {
 };
 PlacesChildCare = (0, _pure2.default)(PlacesChildCare);
 PlacesChildCare.displayName = 'PlacesChildCare';
-PlacesChildCare.muiName = 'SvgIcon';
 
 exports.default = PlacesChildCare;

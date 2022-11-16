@@ -27,6 +27,5 @@ var CommunicationLocationOn = function CommunicationLocationOn(props) {
 };
 CommunicationLocationOn = (0, _pure2.default)(CommunicationLocationOn);
 CommunicationLocationOn.displayName = 'CommunicationLocationOn';
-CommunicationLocationOn.muiName = 'SvgIcon';
 
 exports.default = CommunicationLocationOn;

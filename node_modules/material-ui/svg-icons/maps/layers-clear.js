@@ -27,6 +27,5 @@ var MapsLayersClear = function MapsLayersClear(props) {
 };
 MapsLayersClear = (0, _pure2.default)(MapsLayersClear);
 MapsLayersClear.displayName = 'MapsLayersClear';
-MapsLayersClear.muiName = 'SvgIcon';
 
 exports.default = MapsLayersClear;

@@ -27,6 +27,5 @@ var AvVolumeMute = function AvVolumeMute(props) {
 };
 AvVolumeMute = (0, _pure2.default)(AvVolumeMute);
 AvVolumeMute.displayName = 'AvVolumeMute';
-AvVolumeMute.muiName = 'SvgIcon';
 
 exports.default = AvVolumeMute;

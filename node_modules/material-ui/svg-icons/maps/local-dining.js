@@ -27,6 +27,5 @@ var MapsLocalDining = function MapsLocalDining(props) {
 };
 MapsLocalDining = (0, _pure2.default)(MapsLocalDining);
 MapsLocalDining.displayName = 'MapsLocalDining';
-MapsLocalDining.muiName = 'SvgIcon';
 
 exports.default = MapsLocalDining;

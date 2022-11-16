@@ -27,6 +27,5 @@ var AvAddToQueue = function AvAddToQueue(props) {
 };
 AvAddToQueue = (0, _pure2.default)(AvAddToQueue);
 AvAddToQueue.displayName = 'AvAddToQueue';
-AvAddToQueue.muiName = 'SvgIcon';
 
 exports.default = AvAddToQueue;

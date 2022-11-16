@@ -27,6 +27,5 @@ var FileFolder = function FileFolder(props) {
 };
 FileFolder = (0, _pure2.default)(FileFolder);
 FileFolder.displayName = 'FileFolder';
-FileFolder.muiName = 'SvgIcon';
 
 exports.default = FileFolder;

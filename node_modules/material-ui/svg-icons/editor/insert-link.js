@@ -27,6 +27,5 @@ var EditorInsertLink = function EditorInsertLink(props) {
 };
 EditorInsertLink = (0, _pure2.default)(EditorInsertLink);
 EditorInsertLink.displayName = 'EditorInsertLink';
-EditorInsertLink.muiName = 'SvgIcon';
 
 exports.default = EditorInsertLink;

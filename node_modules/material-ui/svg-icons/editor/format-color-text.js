@@ -28,6 +28,5 @@ var EditorFormatColorText = function EditorFormatColorText(props) {
 };
 EditorFormatColorText = (0, _pure2.default)(EditorFormatColorText);
 EditorFormatColorText.displayName = 'EditorFormatColorText';
-EditorFormatColorText.muiName = 'SvgIcon';
 
 exports.default = EditorFormatColorText;

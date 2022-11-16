@@ -27,6 +27,5 @@ var ActionSwapVerticalCircle = function ActionSwapVerticalCircle(props) {
 };
 ActionSwapVerticalCircle = (0, _pure2.default)(ActionSwapVerticalCircle);
 ActionSwapVerticalCircle.displayName = 'ActionSwapVerticalCircle';
-ActionSwapVerticalCircle.muiName = 'SvgIcon';
 
 exports.default = ActionSwapVerticalCircle;

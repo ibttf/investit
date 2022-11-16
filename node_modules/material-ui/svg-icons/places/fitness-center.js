@@ -27,6 +27,5 @@ var PlacesFitnessCenter = function PlacesFitnessCenter(props) {
 };
 PlacesFitnessCenter = (0, _pure2.default)(PlacesFitnessCenter);
 PlacesFitnessCenter.displayName = 'PlacesFitnessCenter';
-PlacesFitnessCenter.muiName = 'SvgIcon';
 
 exports.default = PlacesFitnessCenter;

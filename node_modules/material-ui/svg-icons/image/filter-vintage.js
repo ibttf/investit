@@ -27,6 +27,5 @@ var ImageFilterVintage = function ImageFilterVintage(props) {
 };
 ImageFilterVintage = (0, _pure2.default)(ImageFilterVintage);
 ImageFilterVintage.displayName = 'ImageFilterVintage';
-ImageFilterVintage.muiName = 'SvgIcon';
 
 exports.default = ImageFilterVintage;

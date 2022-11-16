@@ -27,6 +27,5 @@ var ContentRedo = function ContentRedo(props) {
 };
 ContentRedo = (0, _pure2.default)(ContentRedo);
 ContentRedo.displayName = 'ContentRedo';
-ContentRedo.muiName = 'SvgIcon';
 
 exports.default = ContentRedo;

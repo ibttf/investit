@@ -27,6 +27,5 @@ var MapsPersonPinCircle = function MapsPersonPinCircle(props) {
 };
 MapsPersonPinCircle = (0, _pure2.default)(MapsPersonPinCircle);
 MapsPersonPinCircle.displayName = 'MapsPersonPinCircle';
-MapsPersonPinCircle.muiName = 'SvgIcon';
 
 exports.default = MapsPersonPinCircle;

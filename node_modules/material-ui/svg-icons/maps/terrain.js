@@ -27,6 +27,5 @@ var MapsTerrain = function MapsTerrain(props) {
 };
 MapsTerrain = (0, _pure2.default)(MapsTerrain);
 MapsTerrain.displayName = 'MapsTerrain';
-MapsTerrain.muiName = 'SvgIcon';
 
 exports.default = MapsTerrain;

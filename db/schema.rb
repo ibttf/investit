@@ -14,9 +14,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_07_221356) do
   create_table "portfolios", force: :cascade do |t|
     t.string "name"
     t.integer "user_id", null: false
-    t.float "value"
-    t.datetime "last_seen"
-    t.float "change"
+    t.float "value", default: 10000.0
+    t.float "buying_power", default: 10000.0
+    t.float "daily_change"
+    t.float "total_change"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_portfolios_on_user_id"
@@ -31,6 +32,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_07_221356) do
     t.string "name"
     t.string "full_name"
     t.integer "shares_owned"
+    t.float "purchase_price"
+    t.string "security_type"
+    t.float "daily_change"
+    t.float "current_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -38,7 +43,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_07_221356) do
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
-    t.integer "points", default: 5
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

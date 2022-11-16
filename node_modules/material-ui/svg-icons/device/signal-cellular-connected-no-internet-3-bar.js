@@ -28,6 +28,5 @@ var DeviceSignalCellularConnectedNoInternet3Bar = function DeviceSignalCellularC
 };
 DeviceSignalCellularConnectedNoInternet3Bar = (0, _pure2.default)(DeviceSignalCellularConnectedNoInternet3Bar);
 DeviceSignalCellularConnectedNoInternet3Bar.displayName = 'DeviceSignalCellularConnectedNoInternet3Bar';
-DeviceSignalCellularConnectedNoInternet3Bar.muiName = 'SvgIcon';
 
 exports.default = DeviceSignalCellularConnectedNoInternet3Bar;

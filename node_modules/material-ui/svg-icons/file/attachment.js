@@ -27,6 +27,5 @@ var FileAttachment = function FileAttachment(props) {
 };
 FileAttachment = (0, _pure2.default)(FileAttachment);
 FileAttachment.displayName = 'FileAttachment';
-FileAttachment.muiName = 'SvgIcon';
 
 exports.default = FileAttachment;

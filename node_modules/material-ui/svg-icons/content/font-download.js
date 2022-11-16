@@ -27,6 +27,5 @@ var ContentFontDownload = function ContentFontDownload(props) {
 };
 ContentFontDownload = (0, _pure2.default)(ContentFontDownload);
 ContentFontDownload.displayName = 'ContentFontDownload';
-ContentFontDownload.muiName = 'SvgIcon';
 
 exports.default = ContentFontDownload;

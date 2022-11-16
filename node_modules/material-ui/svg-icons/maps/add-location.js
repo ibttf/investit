@@ -27,6 +27,5 @@ var MapsAddLocation = function MapsAddLocation(props) {
 };
 MapsAddLocation = (0, _pure2.default)(MapsAddLocation);
 MapsAddLocation.displayName = 'MapsAddLocation';
-MapsAddLocation.muiName = 'SvgIcon';
 
 exports.default = MapsAddLocation;

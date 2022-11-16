@@ -27,6 +27,5 @@ var MapsLayers = function MapsLayers(props) {
 };
 MapsLayers = (0, _pure2.default)(MapsLayers);
 MapsLayers.displayName = 'MapsLayers';
-MapsLayers.muiName = 'SvgIcon';
 
 exports.default = MapsLayers;

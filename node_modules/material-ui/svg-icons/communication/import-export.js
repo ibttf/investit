@@ -27,6 +27,5 @@ var CommunicationImportExport = function CommunicationImportExport(props) {
 };
 CommunicationImportExport = (0, _pure2.default)(CommunicationImportExport);
 CommunicationImportExport.displayName = 'CommunicationImportExport';
-CommunicationImportExport.muiName = 'SvgIcon';
 
 exports.default = CommunicationImportExport;

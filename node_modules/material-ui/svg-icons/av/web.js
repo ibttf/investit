@@ -27,6 +27,5 @@ var AvWeb = function AvWeb(props) {
 };
 AvWeb = (0, _pure2.default)(AvWeb);
 AvWeb.displayName = 'AvWeb';
-AvWeb.muiName = 'SvgIcon';
 
 exports.default = AvWeb;

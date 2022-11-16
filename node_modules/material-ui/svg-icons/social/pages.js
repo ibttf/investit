@@ -27,6 +27,5 @@ var SocialPages = function SocialPages(props) {
 };
 SocialPages = (0, _pure2.default)(SocialPages);
 SocialPages.displayName = 'SocialPages';
-SocialPages.muiName = 'SvgIcon';
 
 exports.default = SocialPages;

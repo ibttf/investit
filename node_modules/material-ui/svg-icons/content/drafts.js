@@ -27,6 +27,5 @@ var ContentDrafts = function ContentDrafts(props) {
 };
 ContentDrafts = (0, _pure2.default)(ContentDrafts);
 ContentDrafts.displayName = 'ContentDrafts';
-ContentDrafts.muiName = 'SvgIcon';
 
 exports.default = ContentDrafts;

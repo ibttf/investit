@@ -27,6 +27,5 @@ var ActionPrint = function ActionPrint(props) {
 };
 ActionPrint = (0, _pure2.default)(ActionPrint);
 ActionPrint.displayName = 'ActionPrint';
-ActionPrint.muiName = 'SvgIcon';
 
 exports.default = ActionPrint;

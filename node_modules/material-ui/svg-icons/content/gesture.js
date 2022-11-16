@@ -27,6 +27,5 @@ var ContentGesture = function ContentGesture(props) {
 };
 ContentGesture = (0, _pure2.default)(ContentGesture);
 ContentGesture.displayName = 'ContentGesture';
-ContentGesture.muiName = 'SvgIcon';
 
 exports.default = ContentGesture;

@@ -27,6 +27,5 @@ var ActionPageview = function ActionPageview(props) {
 };
 ActionPageview = (0, _pure2.default)(ActionPageview);
 ActionPageview.displayName = 'ActionPageview';
-ActionPageview.muiName = 'SvgIcon';
 
 exports.default = ActionPageview;

@@ -27,6 +27,5 @@ var CommunicationVoicemail = function CommunicationVoicemail(props) {
 };
 CommunicationVoicemail = (0, _pure2.default)(CommunicationVoicemail);
 CommunicationVoicemail.displayName = 'CommunicationVoicemail';
-CommunicationVoicemail.muiName = 'SvgIcon';
 
 exports.default = CommunicationVoicemail;

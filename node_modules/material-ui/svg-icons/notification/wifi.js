@@ -27,6 +27,5 @@ var NotificationWifi = function NotificationWifi(props) {
 };
 NotificationWifi = (0, _pure2.default)(NotificationWifi);
 NotificationWifi.displayName = 'NotificationWifi';
-NotificationWifi.muiName = 'SvgIcon';
 
 exports.default = NotificationWifi;

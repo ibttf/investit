@@ -27,6 +27,5 @@ var HardwareVideogameAsset = function HardwareVideogameAsset(props) {
 };
 HardwareVideogameAsset = (0, _pure2.default)(HardwareVideogameAsset);
 HardwareVideogameAsset.displayName = 'HardwareVideogameAsset';
-HardwareVideogameAsset.muiName = 'SvgIcon';
 
 exports.default = HardwareVideogameAsset;

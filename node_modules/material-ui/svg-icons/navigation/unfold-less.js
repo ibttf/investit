@@ -27,6 +27,5 @@ var NavigationUnfoldLess = function NavigationUnfoldLess(props) {
 };
 NavigationUnfoldLess = (0, _pure2.default)(NavigationUnfoldLess);
 NavigationUnfoldLess.displayName = 'NavigationUnfoldLess';
-NavigationUnfoldLess.muiName = 'SvgIcon';
 
 exports.default = NavigationUnfoldLess;

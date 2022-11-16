@@ -27,6 +27,5 @@ var ImageGridOn = function ImageGridOn(props) {
 };
 ImageGridOn = (0, _pure2.default)(ImageGridOn);
 ImageGridOn.displayName = 'ImageGridOn';
-ImageGridOn.muiName = 'SvgIcon';
 
 exports.default = ImageGridOn;

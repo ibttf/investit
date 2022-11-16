@@ -27,6 +27,5 @@ var ImageGridOff = function ImageGridOff(props) {
 };
 ImageGridOff = (0, _pure2.default)(ImageGridOff);
 ImageGridOff.displayName = 'ImageGridOff';
-ImageGridOff.muiName = 'SvgIcon';
 
 exports.default = ImageGridOff;

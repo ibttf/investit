@@ -27,6 +27,5 @@ var EditorFormatPaint = function EditorFormatPaint(props) {
 };
 EditorFormatPaint = (0, _pure2.default)(EditorFormatPaint);
 EditorFormatPaint.displayName = 'EditorFormatPaint';
-EditorFormatPaint.muiName = 'SvgIcon';
 
 exports.default = EditorFormatPaint;

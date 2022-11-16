@@ -27,6 +27,5 @@ var CommunicationCallMissed = function CommunicationCallMissed(props) {
 };
 CommunicationCallMissed = (0, _pure2.default)(CommunicationCallMissed);
 CommunicationCallMissed.displayName = 'CommunicationCallMissed';
-CommunicationCallMissed.muiName = 'SvgIcon';
 
 exports.default = CommunicationCallMissed;

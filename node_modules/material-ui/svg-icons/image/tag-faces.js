@@ -27,6 +27,5 @@ var ImageTagFaces = function ImageTagFaces(props) {
 };
 ImageTagFaces = (0, _pure2.default)(ImageTagFaces);
 ImageTagFaces.displayName = 'ImageTagFaces';
-ImageTagFaces.muiName = 'SvgIcon';
 
 exports.default = ImageTagFaces;

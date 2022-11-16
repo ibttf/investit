@@ -27,6 +27,5 @@ var NavigationClose = function NavigationClose(props) {
 };
 NavigationClose = (0, _pure2.default)(NavigationClose);
 NavigationClose.displayName = 'NavigationClose';
-NavigationClose.muiName = 'SvgIcon';
 
 exports.default = NavigationClose;

@@ -27,6 +27,5 @@ var MapsTram = function MapsTram(props) {
 };
 MapsTram = (0, _pure2.default)(MapsTram);
 MapsTram.displayName = 'MapsTram';
-MapsTram.muiName = 'SvgIcon';
 
 exports.default = MapsTram;

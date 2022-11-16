@@ -27,6 +27,5 @@ var NavigationLastPage = function NavigationLastPage(props) {
 };
 NavigationLastPage = (0, _pure2.default)(NavigationLastPage);
 NavigationLastPage.displayName = 'NavigationLastPage';
-NavigationLastPage.muiName = 'SvgIcon';
 
 exports.default = NavigationLastPage;

@@ -27,6 +27,5 @@ var ActionQuestionAnswer = function ActionQuestionAnswer(props) {
 };
 ActionQuestionAnswer = (0, _pure2.default)(ActionQuestionAnswer);
 ActionQuestionAnswer.displayName = 'ActionQuestionAnswer';
-ActionQuestionAnswer.muiName = 'SvgIcon';
 
 exports.default = ActionQuestionAnswer;

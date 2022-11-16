@@ -27,6 +27,5 @@ var EditorSpaceBar = function EditorSpaceBar(props) {
 };
 EditorSpaceBar = (0, _pure2.default)(EditorSpaceBar);
 EditorSpaceBar.displayName = 'EditorSpaceBar';
-EditorSpaceBar.muiName = 'SvgIcon';
 
 exports.default = EditorSpaceBar;

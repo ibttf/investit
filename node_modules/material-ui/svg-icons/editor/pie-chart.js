@@ -27,6 +27,5 @@ var EditorPieChart = function EditorPieChart(props) {
 };
 EditorPieChart = (0, _pure2.default)(EditorPieChart);
 EditorPieChart.displayName = 'EditorPieChart';
-EditorPieChart.muiName = 'SvgIcon';
 
 exports.default = EditorPieChart;

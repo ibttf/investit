@@ -27,6 +27,5 @@ var ImageCollections = function ImageCollections(props) {
 };
 ImageCollections = (0, _pure2.default)(ImageCollections);
 ImageCollections.displayName = 'ImageCollections';
-ImageCollections.muiName = 'SvgIcon';
 
 exports.default = ImageCollections;

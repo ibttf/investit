@@ -27,6 +27,5 @@ var ContentRemove = function ContentRemove(props) {
 };
 ContentRemove = (0, _pure2.default)(ContentRemove);
 ContentRemove.displayName = 'ContentRemove';
-ContentRemove.muiName = 'SvgIcon';
 
 exports.default = ContentRemove;

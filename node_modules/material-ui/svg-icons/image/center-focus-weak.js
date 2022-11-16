@@ -27,6 +27,5 @@ var ImageCenterFocusWeak = function ImageCenterFocusWeak(props) {
 };
 ImageCenterFocusWeak = (0, _pure2.default)(ImageCenterFocusWeak);
 ImageCenterFocusWeak.displayName = 'ImageCenterFocusWeak';
-ImageCenterFocusWeak.muiName = 'SvgIcon';
 
 exports.default = ImageCenterFocusWeak;

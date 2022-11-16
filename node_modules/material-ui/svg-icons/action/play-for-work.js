@@ -27,6 +27,5 @@ var ActionPlayForWork = function ActionPlayForWork(props) {
 };
 ActionPlayForWork = (0, _pure2.default)(ActionPlayForWork);
 ActionPlayForWork.displayName = 'ActionPlayForWork';
-ActionPlayForWork.muiName = 'SvgIcon';
 
 exports.default = ActionPlayForWork;

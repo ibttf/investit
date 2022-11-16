@@ -27,6 +27,5 @@ var ImageNavigateBefore = function ImageNavigateBefore(props) {
 };
 ImageNavigateBefore = (0, _pure2.default)(ImageNavigateBefore);
 ImageNavigateBefore.displayName = 'ImageNavigateBefore';
-ImageNavigateBefore.muiName = 'SvgIcon';
 
 exports.default = ImageNavigateBefore;

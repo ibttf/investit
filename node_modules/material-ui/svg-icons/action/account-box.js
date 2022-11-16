@@ -27,6 +27,5 @@ var ActionAccountBox = function ActionAccountBox(props) {
 };
 ActionAccountBox = (0, _pure2.default)(ActionAccountBox);
 ActionAccountBox.displayName = 'ActionAccountBox';
-ActionAccountBox.muiName = 'SvgIcon';
 
 exports.default = ActionAccountBox;

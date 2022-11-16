@@ -27,6 +27,5 @@ var ImagePhotoSizeSelectSmall = function ImagePhotoSizeSelectSmall(props) {
 };
 ImagePhotoSizeSelectSmall = (0, _pure2.default)(ImagePhotoSizeSelectSmall);
 ImagePhotoSizeSelectSmall.displayName = 'ImagePhotoSizeSelectSmall';
-ImagePhotoSizeSelectSmall.muiName = 'SvgIcon';
 
 exports.default = ImagePhotoSizeSelectSmall;

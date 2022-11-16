@@ -27,6 +27,5 @@ var NavigationUnfoldMore = function NavigationUnfoldMore(props) {
 };
 NavigationUnfoldMore = (0, _pure2.default)(NavigationUnfoldMore);
 NavigationUnfoldMore.displayName = 'NavigationUnfoldMore';
-NavigationUnfoldMore.muiName = 'SvgIcon';
 
 exports.default = NavigationUnfoldMore;

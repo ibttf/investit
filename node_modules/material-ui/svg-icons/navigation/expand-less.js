@@ -27,6 +27,5 @@ var NavigationExpandLess = function NavigationExpandLess(props) {
 };
 NavigationExpandLess = (0, _pure2.default)(NavigationExpandLess);
 NavigationExpandLess.displayName = 'NavigationExpandLess';
-NavigationExpandLess.muiName = 'SvgIcon';
 
 exports.default = NavigationExpandLess;

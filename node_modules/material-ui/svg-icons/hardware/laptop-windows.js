@@ -27,6 +27,5 @@ var HardwareLaptopWindows = function HardwareLaptopWindows(props) {
 };
 HardwareLaptopWindows = (0, _pure2.default)(HardwareLaptopWindows);
 HardwareLaptopWindows.displayName = 'HardwareLaptopWindows';
-HardwareLaptopWindows.muiName = 'SvgIcon';
 
 exports.default = HardwareLaptopWindows;

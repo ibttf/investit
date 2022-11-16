@@ -27,6 +27,5 @@ var ContentWeekend = function ContentWeekend(props) {
 };
 ContentWeekend = (0, _pure2.default)(ContentWeekend);
 ContentWeekend.displayName = 'ContentWeekend';
-ContentWeekend.muiName = 'SvgIcon';
 
 exports.default = ContentWeekend;

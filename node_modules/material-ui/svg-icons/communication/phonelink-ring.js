@@ -27,6 +27,5 @@ var CommunicationPhonelinkRing = function CommunicationPhonelinkRing(props) {
 };
 CommunicationPhonelinkRing = (0, _pure2.default)(CommunicationPhonelinkRing);
 CommunicationPhonelinkRing.displayName = 'CommunicationPhonelinkRing';
-CommunicationPhonelinkRing.muiName = 'SvgIcon';
 
 exports.default = CommunicationPhonelinkRing;

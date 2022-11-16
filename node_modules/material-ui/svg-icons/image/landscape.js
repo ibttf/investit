@@ -27,6 +27,5 @@ var ImageLandscape = function ImageLandscape(props) {
 };
 ImageLandscape = (0, _pure2.default)(ImageLandscape);
 ImageLandscape.displayName = 'ImageLandscape';
-ImageLandscape.muiName = 'SvgIcon';
 
 exports.default = ImageLandscape;

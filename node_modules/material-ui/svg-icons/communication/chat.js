@@ -27,6 +27,5 @@ var CommunicationChat = function CommunicationChat(props) {
 };
 CommunicationChat = (0, _pure2.default)(CommunicationChat);
 CommunicationChat.displayName = 'CommunicationChat';
-CommunicationChat.muiName = 'SvgIcon';
 
 exports.default = CommunicationChat;

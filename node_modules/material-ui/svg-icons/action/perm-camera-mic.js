@@ -27,6 +27,5 @@ var ActionPermCameraMic = function ActionPermCameraMic(props) {
 };
 ActionPermCameraMic = (0, _pure2.default)(ActionPermCameraMic);
 ActionPermCameraMic.displayName = 'ActionPermCameraMic';
-ActionPermCameraMic.muiName = 'SvgIcon';
 
 exports.default = ActionPermCameraMic;

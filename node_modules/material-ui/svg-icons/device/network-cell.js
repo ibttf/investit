@@ -28,6 +28,5 @@ var DeviceNetworkCell = function DeviceNetworkCell(props) {
 };
 DeviceNetworkCell = (0, _pure2.default)(DeviceNetworkCell);
 DeviceNetworkCell.displayName = 'DeviceNetworkCell';
-DeviceNetworkCell.muiName = 'SvgIcon';
 
 exports.default = DeviceNetworkCell;

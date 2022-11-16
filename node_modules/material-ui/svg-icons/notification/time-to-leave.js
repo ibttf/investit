@@ -27,6 +27,5 @@ var NotificationTimeToLeave = function NotificationTimeToLeave(props) {
 };
 NotificationTimeToLeave = (0, _pure2.default)(NotificationTimeToLeave);
 NotificationTimeToLeave.displayName = 'NotificationTimeToLeave';
-NotificationTimeToLeave.muiName = 'SvgIcon';
 
 exports.default = NotificationTimeToLeave;

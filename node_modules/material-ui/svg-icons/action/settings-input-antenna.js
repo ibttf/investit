@@ -27,6 +27,5 @@ var ActionSettingsInputAntenna = function ActionSettingsInputAntenna(props) {
 };
 ActionSettingsInputAntenna = (0, _pure2.default)(ActionSettingsInputAntenna);
 ActionSettingsInputAntenna.displayName = 'ActionSettingsInputAntenna';
-ActionSettingsInputAntenna.muiName = 'SvgIcon';
 
 exports.default = ActionSettingsInputAntenna;

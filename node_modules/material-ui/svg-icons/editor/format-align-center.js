@@ -27,6 +27,5 @@ var EditorFormatAlignCenter = function EditorFormatAlignCenter(props) {
 };
 EditorFormatAlignCenter = (0, _pure2.default)(EditorFormatAlignCenter);
 EditorFormatAlignCenter.displayName = 'EditorFormatAlignCenter';
-EditorFormatAlignCenter.muiName = 'SvgIcon';
 
 exports.default = EditorFormatAlignCenter;

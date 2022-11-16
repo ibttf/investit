@@ -27,6 +27,5 @@ var ImageCropRotate = function ImageCropRotate(props) {
 };
 ImageCropRotate = (0, _pure2.default)(ImageCropRotate);
 ImageCropRotate.displayName = 'ImageCropRotate';
-ImageCropRotate.muiName = 'SvgIcon';
 
 exports.default = ImageCropRotate;

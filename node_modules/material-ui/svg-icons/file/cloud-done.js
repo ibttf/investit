@@ -27,6 +27,5 @@ var FileCloudDone = function FileCloudDone(props) {
 };
 FileCloudDone = (0, _pure2.default)(FileCloudDone);
 FileCloudDone.displayName = 'FileCloudDone';
-FileCloudDone.muiName = 'SvgIcon';
 
 exports.default = FileCloudDone;

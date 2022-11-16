@@ -27,6 +27,5 @@ var SocialPublic = function SocialPublic(props) {
 };
 SocialPublic = (0, _pure2.default)(SocialPublic);
 SocialPublic.displayName = 'SocialPublic';
-SocialPublic.muiName = 'SvgIcon';
 
 exports.default = SocialPublic;

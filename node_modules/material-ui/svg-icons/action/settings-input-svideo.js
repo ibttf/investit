@@ -27,6 +27,5 @@ var ActionSettingsInputSvideo = function ActionSettingsInputSvideo(props) {
 };
 ActionSettingsInputSvideo = (0, _pure2.default)(ActionSettingsInputSvideo);
 ActionSettingsInputSvideo.displayName = 'ActionSettingsInputSvideo';
-ActionSettingsInputSvideo.muiName = 'SvgIcon';
 
 exports.default = ActionSettingsInputSvideo;

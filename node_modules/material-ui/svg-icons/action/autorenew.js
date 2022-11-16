@@ -27,6 +27,5 @@ var ActionAutorenew = function ActionAutorenew(props) {
 };
 ActionAutorenew = (0, _pure2.default)(ActionAutorenew);
 ActionAutorenew.displayName = 'ActionAutorenew';
-ActionAutorenew.muiName = 'SvgIcon';
 
 exports.default = ActionAutorenew;

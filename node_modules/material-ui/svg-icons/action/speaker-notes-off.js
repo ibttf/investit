@@ -27,6 +27,5 @@ var ActionSpeakerNotesOff = function ActionSpeakerNotesOff(props) {
 };
 ActionSpeakerNotesOff = (0, _pure2.default)(ActionSpeakerNotesOff);
 ActionSpeakerNotesOff.displayName = 'ActionSpeakerNotesOff';
-ActionSpeakerNotesOff.muiName = 'SvgIcon';
 
 exports.default = ActionSpeakerNotesOff;

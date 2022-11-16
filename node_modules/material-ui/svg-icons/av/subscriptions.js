@@ -27,6 +27,5 @@ var AvSubscriptions = function AvSubscriptions(props) {
 };
 AvSubscriptions = (0, _pure2.default)(AvSubscriptions);
 AvSubscriptions.displayName = 'AvSubscriptions';
-AvSubscriptions.muiName = 'SvgIcon';
 
 exports.default = AvSubscriptions;

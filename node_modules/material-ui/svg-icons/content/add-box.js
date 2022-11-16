@@ -27,6 +27,5 @@ var ContentAddBox = function ContentAddBox(props) {
 };
 ContentAddBox = (0, _pure2.default)(ContentAddBox);
 ContentAddBox.displayName = 'ContentAddBox';
-ContentAddBox.muiName = 'SvgIcon';
 
 exports.default = ContentAddBox;

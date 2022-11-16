@@ -27,6 +27,5 @@ var ActionReorder = function ActionReorder(props) {
 };
 ActionReorder = (0, _pure2.default)(ActionReorder);
 ActionReorder.displayName = 'ActionReorder';
-ActionReorder.muiName = 'SvgIcon';
 
 exports.default = ActionReorder;

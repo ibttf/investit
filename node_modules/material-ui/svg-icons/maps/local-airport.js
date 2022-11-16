@@ -27,6 +27,5 @@ var MapsLocalAirport = function MapsLocalAirport(props) {
 };
 MapsLocalAirport = (0, _pure2.default)(MapsLocalAirport);
 MapsLocalAirport.displayName = 'MapsLocalAirport';
-MapsLocalAirport.muiName = 'SvgIcon';
 
 exports.default = MapsLocalAirport;

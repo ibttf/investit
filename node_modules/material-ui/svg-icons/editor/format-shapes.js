@@ -27,6 +27,5 @@ var EditorFormatShapes = function EditorFormatShapes(props) {
 };
 EditorFormatShapes = (0, _pure2.default)(EditorFormatShapes);
 EditorFormatShapes.displayName = 'EditorFormatShapes';
-EditorFormatShapes.muiName = 'SvgIcon';
 
 exports.default = EditorFormatShapes;

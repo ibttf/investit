@@ -27,6 +27,5 @@ var ActionStars = function ActionStars(props) {
 };
 ActionStars = (0, _pure2.default)(ActionStars);
 ActionStars.displayName = 'ActionStars';
-ActionStars.muiName = 'SvgIcon';
 
 exports.default = ActionStars;

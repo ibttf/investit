@@ -27,6 +27,5 @@ var ContentReply = function ContentReply(props) {
 };
 ContentReply = (0, _pure2.default)(ContentReply);
 ContentReply.displayName = 'ContentReply';
-ContentReply.muiName = 'SvgIcon';
 
 exports.default = ContentReply;

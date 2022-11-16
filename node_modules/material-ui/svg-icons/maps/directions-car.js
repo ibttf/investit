@@ -27,6 +27,5 @@ var MapsDirectionsCar = function MapsDirectionsCar(props) {
 };
 MapsDirectionsCar = (0, _pure2.default)(MapsDirectionsCar);
 MapsDirectionsCar.displayName = 'MapsDirectionsCar';
-MapsDirectionsCar.muiName = 'SvgIcon';
 
 exports.default = MapsDirectionsCar;

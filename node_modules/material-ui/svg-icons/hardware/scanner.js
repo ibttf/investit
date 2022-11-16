@@ -27,6 +27,5 @@ var HardwareScanner = function HardwareScanner(props) {
 };
 HardwareScanner = (0, _pure2.default)(HardwareScanner);
 HardwareScanner.displayName = 'HardwareScanner';
-HardwareScanner.muiName = 'SvgIcon';
 
 exports.default = HardwareScanner;

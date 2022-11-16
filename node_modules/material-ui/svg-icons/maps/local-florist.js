@@ -27,6 +27,5 @@ var MapsLocalFlorist = function MapsLocalFlorist(props) {
 };
 MapsLocalFlorist = (0, _pure2.default)(MapsLocalFlorist);
 MapsLocalFlorist.displayName = 'MapsLocalFlorist';
-MapsLocalFlorist.muiName = 'SvgIcon';
 
 exports.default = MapsLocalFlorist;

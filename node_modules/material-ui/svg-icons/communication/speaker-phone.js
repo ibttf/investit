@@ -27,6 +27,5 @@ var CommunicationSpeakerPhone = function CommunicationSpeakerPhone(props) {
 };
 CommunicationSpeakerPhone = (0, _pure2.default)(CommunicationSpeakerPhone);
 CommunicationSpeakerPhone.displayName = 'CommunicationSpeakerPhone';
-CommunicationSpeakerPhone.muiName = 'SvgIcon';
 
 exports.default = CommunicationSpeakerPhone;

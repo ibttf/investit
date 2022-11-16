@@ -27,6 +27,5 @@ var AvFiberNew = function AvFiberNew(props) {
 };
 AvFiberNew = (0, _pure2.default)(AvFiberNew);
 AvFiberNew.displayName = 'AvFiberNew';
-AvFiberNew.muiName = 'SvgIcon';
 
 exports.default = AvFiberNew;

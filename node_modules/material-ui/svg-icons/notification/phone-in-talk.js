@@ -27,6 +27,5 @@ var NotificationPhoneInTalk = function NotificationPhoneInTalk(props) {
 };
 NotificationPhoneInTalk = (0, _pure2.default)(NotificationPhoneInTalk);
 NotificationPhoneInTalk.displayName = 'NotificationPhoneInTalk';
-NotificationPhoneInTalk.muiName = 'SvgIcon';
 
 exports.default = NotificationPhoneInTalk;

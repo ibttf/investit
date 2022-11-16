@@ -27,6 +27,5 @@ var SocialCake = function SocialCake(props) {
 };
 SocialCake = (0, _pure2.default)(SocialCake);
 SocialCake.displayName = 'SocialCake';
-SocialCake.muiName = 'SvgIcon';
 
 exports.default = SocialCake;

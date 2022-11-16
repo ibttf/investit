@@ -27,6 +27,5 @@ var EditorFormatTextdirectionRToL = function EditorFormatTextdirectionRToL(props
 };
 EditorFormatTextdirectionRToL = (0, _pure2.default)(EditorFormatTextdirectionRToL);
 EditorFormatTextdirectionRToL.displayName = 'EditorFormatTextdirectionRToL';
-EditorFormatTextdirectionRToL.muiName = 'SvgIcon';
 
 exports.default = EditorFormatTextdirectionRToL;

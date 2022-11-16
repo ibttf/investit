@@ -27,6 +27,5 @@ var EditorFormatAlignJustify = function EditorFormatAlignJustify(props) {
 };
 EditorFormatAlignJustify = (0, _pure2.default)(EditorFormatAlignJustify);
 EditorFormatAlignJustify.displayName = 'EditorFormatAlignJustify';
-EditorFormatAlignJustify.muiName = 'SvgIcon';
 
 exports.default = EditorFormatAlignJustify;

@@ -27,6 +27,5 @@ var CommunicationTextsms = function CommunicationTextsms(props) {
 };
 CommunicationTextsms = (0, _pure2.default)(CommunicationTextsms);
 CommunicationTextsms.displayName = 'CommunicationTextsms';
-CommunicationTextsms.muiName = 'SvgIcon';
 
 exports.default = CommunicationTextsms;

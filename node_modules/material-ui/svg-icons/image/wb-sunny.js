@@ -27,6 +27,5 @@ var ImageWbSunny = function ImageWbSunny(props) {
 };
 ImageWbSunny = (0, _pure2.default)(ImageWbSunny);
 ImageWbSunny.displayName = 'ImageWbSunny';
-ImageWbSunny.muiName = 'SvgIcon';
 
 exports.default = ImageWbSunny;

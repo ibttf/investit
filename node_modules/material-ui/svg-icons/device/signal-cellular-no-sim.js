@@ -27,6 +27,5 @@ var DeviceSignalCellularNoSim = function DeviceSignalCellularNoSim(props) {
 };
 DeviceSignalCellularNoSim = (0, _pure2.default)(DeviceSignalCellularNoSim);
 DeviceSignalCellularNoSim.displayName = 'DeviceSignalCellularNoSim';
-DeviceSignalCellularNoSim.muiName = 'SvgIcon';
 
 exports.default = DeviceSignalCellularNoSim;

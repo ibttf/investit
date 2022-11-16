@@ -27,6 +27,5 @@ var ImageBrush = function ImageBrush(props) {
 };
 ImageBrush = (0, _pure2.default)(ImageBrush);
 ImageBrush.displayName = 'ImageBrush';
-ImageBrush.muiName = 'SvgIcon';
 
 exports.default = ImageBrush;

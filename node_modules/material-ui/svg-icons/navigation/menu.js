@@ -27,6 +27,5 @@ var NavigationMenu = function NavigationMenu(props) {
 };
 NavigationMenu = (0, _pure2.default)(NavigationMenu);
 NavigationMenu.displayName = 'NavigationMenu';
-NavigationMenu.muiName = 'SvgIcon';
 
 exports.default = NavigationMenu;

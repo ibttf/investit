@@ -27,6 +27,5 @@ var EditorFormatQuote = function EditorFormatQuote(props) {
 };
 EditorFormatQuote = (0, _pure2.default)(EditorFormatQuote);
 EditorFormatQuote.displayName = 'EditorFormatQuote';
-EditorFormatQuote.muiName = 'SvgIcon';
 
 exports.default = EditorFormatQuote;

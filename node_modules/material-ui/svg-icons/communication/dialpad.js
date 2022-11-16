@@ -27,6 +27,5 @@ var CommunicationDialpad = function CommunicationDialpad(props) {
 };
 CommunicationDialpad = (0, _pure2.default)(CommunicationDialpad);
 CommunicationDialpad.displayName = 'CommunicationDialpad';
-CommunicationDialpad.muiName = 'SvgIcon';
 
 exports.default = CommunicationDialpad;

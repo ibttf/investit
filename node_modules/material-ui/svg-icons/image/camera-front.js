@@ -27,6 +27,5 @@ var ImageCameraFront = function ImageCameraFront(props) {
 };
 ImageCameraFront = (0, _pure2.default)(ImageCameraFront);
 ImageCameraFront.displayName = 'ImageCameraFront';
-ImageCameraFront.muiName = 'SvgIcon';
 
 exports.default = ImageCameraFront;

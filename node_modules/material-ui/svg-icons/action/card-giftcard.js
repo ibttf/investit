@@ -27,6 +27,5 @@ var ActionCardGiftcard = function ActionCardGiftcard(props) {
 };
 ActionCardGiftcard = (0, _pure2.default)(ActionCardGiftcard);
 ActionCardGiftcard.displayName = 'ActionCardGiftcard';
-ActionCardGiftcard.muiName = 'SvgIcon';
 
 exports.default = ActionCardGiftcard;

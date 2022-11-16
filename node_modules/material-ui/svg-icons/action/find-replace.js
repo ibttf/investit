@@ -27,6 +27,5 @@ var ActionFindReplace = function ActionFindReplace(props) {
 };
 ActionFindReplace = (0, _pure2.default)(ActionFindReplace);
 ActionFindReplace.displayName = 'ActionFindReplace';
-ActionFindReplace.muiName = 'SvgIcon';
 
 exports.default = ActionFindReplace;

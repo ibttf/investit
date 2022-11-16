@@ -27,6 +27,5 @@ var EditorVerticalAlignCenter = function EditorVerticalAlignCenter(props) {
 };
 EditorVerticalAlignCenter = (0, _pure2.default)(EditorVerticalAlignCenter);
 EditorVerticalAlignCenter.displayName = 'EditorVerticalAlignCenter';
-EditorVerticalAlignCenter.muiName = 'SvgIcon';
 
 exports.default = EditorVerticalAlignCenter;

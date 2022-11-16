@@ -27,6 +27,5 @@ var NotificationMms = function NotificationMms(props) {
 };
 NotificationMms = (0, _pure2.default)(NotificationMms);
 NotificationMms.displayName = 'NotificationMms';
-NotificationMms.muiName = 'SvgIcon';
 
 exports.default = NotificationMms;

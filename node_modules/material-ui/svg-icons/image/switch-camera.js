@@ -27,6 +27,5 @@ var ImageSwitchCamera = function ImageSwitchCamera(props) {
 };
 ImageSwitchCamera = (0, _pure2.default)(ImageSwitchCamera);
 ImageSwitchCamera.displayName = 'ImageSwitchCamera';
-ImageSwitchCamera.muiName = 'SvgIcon';
 
 exports.default = ImageSwitchCamera;

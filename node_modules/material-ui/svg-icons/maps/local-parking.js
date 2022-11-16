@@ -27,6 +27,5 @@ var MapsLocalParking = function MapsLocalParking(props) {
 };
 MapsLocalParking = (0, _pure2.default)(MapsLocalParking);
 MapsLocalParking.displayName = 'MapsLocalParking';
-MapsLocalParking.muiName = 'SvgIcon';
 
 exports.default = MapsLocalParking;

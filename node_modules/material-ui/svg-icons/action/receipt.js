@@ -27,6 +27,5 @@ var ActionReceipt = function ActionReceipt(props) {
 };
 ActionReceipt = (0, _pure2.default)(ActionReceipt);
 ActionReceipt.displayName = 'ActionReceipt';
-ActionReceipt.muiName = 'SvgIcon';
 
 exports.default = ActionReceipt;

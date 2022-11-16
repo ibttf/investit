@@ -27,6 +27,5 @@ var PlacesSmokingRooms = function PlacesSmokingRooms(props) {
 };
 PlacesSmokingRooms = (0, _pure2.default)(PlacesSmokingRooms);
 PlacesSmokingRooms.displayName = 'PlacesSmokingRooms';
-PlacesSmokingRooms.muiName = 'SvgIcon';
 
 exports.default = PlacesSmokingRooms;

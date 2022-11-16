@@ -27,6 +27,5 @@ var FileFileUpload = function FileFileUpload(props) {
 };
 FileFileUpload = (0, _pure2.default)(FileFileUpload);
 FileFileUpload.displayName = 'FileFileUpload';
-FileFileUpload.muiName = 'SvgIcon';
 
 exports.default = FileFileUpload;

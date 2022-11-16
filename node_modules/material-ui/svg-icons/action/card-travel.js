@@ -27,6 +27,5 @@ var ActionCardTravel = function ActionCardTravel(props) {
 };
 ActionCardTravel = (0, _pure2.default)(ActionCardTravel);
 ActionCardTravel.displayName = 'ActionCardTravel';
-ActionCardTravel.muiName = 'SvgIcon';
 
 exports.default = ActionCardTravel;

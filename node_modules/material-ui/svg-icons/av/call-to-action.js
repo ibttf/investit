@@ -27,6 +27,5 @@ var AvCallToAction = function AvCallToAction(props) {
 };
 AvCallToAction = (0, _pure2.default)(AvCallToAction);
 AvCallToAction.displayName = 'AvCallToAction';
-AvCallToAction.muiName = 'SvgIcon';
 
 exports.default = AvCallToAction;

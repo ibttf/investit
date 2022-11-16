@@ -27,6 +27,5 @@ var NotificationTapAndPlay = function NotificationTapAndPlay(props) {
 };
 NotificationTapAndPlay = (0, _pure2.default)(NotificationTapAndPlay);
 NotificationTapAndPlay.displayName = 'NotificationTapAndPlay';
-NotificationTapAndPlay.muiName = 'SvgIcon';
 
 exports.default = NotificationTapAndPlay;

@@ -27,6 +27,5 @@ var ActionTrackChanges = function ActionTrackChanges(props) {
 };
 ActionTrackChanges = (0, _pure2.default)(ActionTrackChanges);
 ActionTrackChanges.displayName = 'ActionTrackChanges';
-ActionTrackChanges.muiName = 'SvgIcon';
 
 exports.default = ActionTrackChanges;

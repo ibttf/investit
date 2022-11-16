@@ -27,6 +27,5 @@ var SocialGroupAdd = function SocialGroupAdd(props) {
 };
 SocialGroupAdd = (0, _pure2.default)(SocialGroupAdd);
 SocialGroupAdd.displayName = 'SocialGroupAdd';
-SocialGroupAdd.muiName = 'SvgIcon';
 
 exports.default = SocialGroupAdd;

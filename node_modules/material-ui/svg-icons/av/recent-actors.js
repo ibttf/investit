@@ -27,6 +27,5 @@ var AvRecentActors = function AvRecentActors(props) {
 };
 AvRecentActors = (0, _pure2.default)(AvRecentActors);
 AvRecentActors.displayName = 'AvRecentActors';
-AvRecentActors.muiName = 'SvgIcon';
 
 exports.default = AvRecentActors;

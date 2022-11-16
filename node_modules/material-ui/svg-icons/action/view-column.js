@@ -27,6 +27,5 @@ var ActionViewColumn = function ActionViewColumn(props) {
 };
 ActionViewColumn = (0, _pure2.default)(ActionViewColumn);
 ActionViewColumn.displayName = 'ActionViewColumn';
-ActionViewColumn.muiName = 'SvgIcon';
 
 exports.default = ActionViewColumn;

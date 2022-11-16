@@ -27,6 +27,5 @@ var ActionSettingsPower = function ActionSettingsPower(props) {
 };
 ActionSettingsPower = (0, _pure2.default)(ActionSettingsPower);
 ActionSettingsPower.displayName = 'ActionSettingsPower';
-ActionSettingsPower.muiName = 'SvgIcon';
 
 exports.default = ActionSettingsPower;

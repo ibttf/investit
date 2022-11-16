@@ -27,6 +27,5 @@ var ActionPregnantWoman = function ActionPregnantWoman(props) {
 };
 ActionPregnantWoman = (0, _pure2.default)(ActionPregnantWoman);
 ActionPregnantWoman.displayName = 'ActionPregnantWoman';
-ActionPregnantWoman.muiName = 'SvgIcon';
 
 exports.default = ActionPregnantWoman;

@@ -27,6 +27,5 @@ var ActionDelete = function ActionDelete(props) {
 };
 ActionDelete = (0, _pure2.default)(ActionDelete);
 ActionDelete.displayName = 'ActionDelete';
-ActionDelete.muiName = 'SvgIcon';
 
 exports.default = ActionDelete;

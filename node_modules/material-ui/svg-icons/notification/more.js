@@ -27,6 +27,5 @@ var NotificationMore = function NotificationMore(props) {
 };
 NotificationMore = (0, _pure2.default)(NotificationMore);
 NotificationMore.displayName = 'NotificationMore';
-NotificationMore.muiName = 'SvgIcon';
 
 exports.default = NotificationMore;

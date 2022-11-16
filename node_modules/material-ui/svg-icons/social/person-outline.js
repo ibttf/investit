@@ -27,6 +27,5 @@ var SocialPersonOutline = function SocialPersonOutline(props) {
 };
 SocialPersonOutline = (0, _pure2.default)(SocialPersonOutline);
 SocialPersonOutline.displayName = 'SocialPersonOutline';
-SocialPersonOutline.muiName = 'SvgIcon';
 
 exports.default = SocialPersonOutline;

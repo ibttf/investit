@@ -27,6 +27,5 @@ var AvVideocamOff = function AvVideocamOff(props) {
 };
 AvVideocamOff = (0, _pure2.default)(AvVideocamOff);
 AvVideocamOff.displayName = 'AvVideocamOff';
-AvVideocamOff.muiName = 'SvgIcon';
 
 exports.default = AvVideocamOff;

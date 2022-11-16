@@ -30,6 +30,5 @@ var SocialSentimentNeutral = function SocialSentimentNeutral(props) {
 };
 SocialSentimentNeutral = (0, _pure2.default)(SocialSentimentNeutral);
 SocialSentimentNeutral.displayName = 'SocialSentimentNeutral';
-SocialSentimentNeutral.muiName = 'SvgIcon';
 
 exports.default = SocialSentimentNeutral;

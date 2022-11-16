@@ -27,6 +27,5 @@ var ActionEuroSymbol = function ActionEuroSymbol(props) {
 };
 ActionEuroSymbol = (0, _pure2.default)(ActionEuroSymbol);
 ActionEuroSymbol.displayName = 'ActionEuroSymbol';
-ActionEuroSymbol.muiName = 'SvgIcon';
 
 exports.default = ActionEuroSymbol;

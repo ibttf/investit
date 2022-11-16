@@ -27,6 +27,5 @@ var ActionHelpOutline = function ActionHelpOutline(props) {
 };
 ActionHelpOutline = (0, _pure2.default)(ActionHelpOutline);
 ActionHelpOutline.displayName = 'ActionHelpOutline';
-ActionHelpOutline.muiName = 'SvgIcon';
 
 exports.default = ActionHelpOutline;

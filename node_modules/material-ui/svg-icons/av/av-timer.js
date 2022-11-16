@@ -27,6 +27,5 @@ var AvAvTimer = function AvAvTimer(props) {
 };
 AvAvTimer = (0, _pure2.default)(AvAvTimer);
 AvAvTimer.displayName = 'AvAvTimer';
-AvAvTimer.muiName = 'SvgIcon';
 
 exports.default = AvAvTimer;

@@ -27,6 +27,5 @@ var ActionCreditCard = function ActionCreditCard(props) {
 };
 ActionCreditCard = (0, _pure2.default)(ActionCreditCard);
 ActionCreditCard.displayName = 'ActionCreditCard';
-ActionCreditCard.muiName = 'SvgIcon';
 
 exports.default = ActionCreditCard;

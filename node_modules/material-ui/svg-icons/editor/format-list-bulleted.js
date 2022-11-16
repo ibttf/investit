@@ -27,6 +27,5 @@ var EditorFormatListBulleted = function EditorFormatListBulleted(props) {
 };
 EditorFormatListBulleted = (0, _pure2.default)(EditorFormatListBulleted);
 EditorFormatListBulleted.displayName = 'EditorFormatListBulleted';
-EditorFormatListBulleted.muiName = 'SvgIcon';
 
 exports.default = EditorFormatListBulleted;

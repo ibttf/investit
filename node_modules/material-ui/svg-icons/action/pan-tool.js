@@ -27,6 +27,5 @@ var ActionPanTool = function ActionPanTool(props) {
 };
 ActionPanTool = (0, _pure2.default)(ActionPanTool);
 ActionPanTool.displayName = 'ActionPanTool';
-ActionPanTool.muiName = 'SvgIcon';
 
 exports.default = ActionPanTool;

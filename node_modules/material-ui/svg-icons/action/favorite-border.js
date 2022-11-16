@@ -27,6 +27,5 @@ var ActionFavoriteBorder = function ActionFavoriteBorder(props) {
 };
 ActionFavoriteBorder = (0, _pure2.default)(ActionFavoriteBorder);
 ActionFavoriteBorder.displayName = 'ActionFavoriteBorder';
-ActionFavoriteBorder.muiName = 'SvgIcon';
 
 exports.default = ActionFavoriteBorder;

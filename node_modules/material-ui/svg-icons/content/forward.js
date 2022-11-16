@@ -27,6 +27,5 @@ var ContentForward = function ContentForward(props) {
 };
 ContentForward = (0, _pure2.default)(ContentForward);
 ContentForward.displayName = 'ContentForward';
-ContentForward.muiName = 'SvgIcon';
 
 exports.default = ContentForward;

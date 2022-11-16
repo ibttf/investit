@@ -27,6 +27,5 @@ var ActionTrendingFlat = function ActionTrendingFlat(props) {
 };
 ActionTrendingFlat = (0, _pure2.default)(ActionTrendingFlat);
 ActionTrendingFlat.displayName = 'ActionTrendingFlat';
-ActionTrendingFlat.muiName = 'SvgIcon';
 
 exports.default = ActionTrendingFlat;

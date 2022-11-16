@@ -27,6 +27,5 @@ var HardwareMouse = function HardwareMouse(props) {
 };
 HardwareMouse = (0, _pure2.default)(HardwareMouse);
 HardwareMouse.displayName = 'HardwareMouse';
-HardwareMouse.muiName = 'SvgIcon';
 
 exports.default = HardwareMouse;

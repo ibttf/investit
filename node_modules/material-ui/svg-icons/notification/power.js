@@ -27,6 +27,5 @@ var NotificationPower = function NotificationPower(props) {
 };
 NotificationPower = (0, _pure2.default)(NotificationPower);
 NotificationPower.displayName = 'NotificationPower';
-NotificationPower.muiName = 'SvgIcon';
 
 exports.default = NotificationPower;

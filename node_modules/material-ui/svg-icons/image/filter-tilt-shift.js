@@ -27,6 +27,5 @@ var ImageFilterTiltShift = function ImageFilterTiltShift(props) {
 };
 ImageFilterTiltShift = (0, _pure2.default)(ImageFilterTiltShift);
 ImageFilterTiltShift.displayName = 'ImageFilterTiltShift';
-ImageFilterTiltShift.muiName = 'SvgIcon';
 
 exports.default = ImageFilterTiltShift;

@@ -27,6 +27,5 @@ var AvVideocam = function AvVideocam(props) {
 };
 AvVideocam = (0, _pure2.default)(AvVideocam);
 AvVideocam.displayName = 'AvVideocam';
-AvVideocam.muiName = 'SvgIcon';
 
 exports.default = AvVideocam;

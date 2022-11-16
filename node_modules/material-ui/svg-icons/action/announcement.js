@@ -27,6 +27,5 @@ var ActionAnnouncement = function ActionAnnouncement(props) {
 };
 ActionAnnouncement = (0, _pure2.default)(ActionAnnouncement);
 ActionAnnouncement.displayName = 'ActionAnnouncement';
-ActionAnnouncement.muiName = 'SvgIcon';
 
 exports.default = ActionAnnouncement;

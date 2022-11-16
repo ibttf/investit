@@ -27,6 +27,5 @@ var ImageTimerOff = function ImageTimerOff(props) {
 };
 ImageTimerOff = (0, _pure2.default)(ImageTimerOff);
 ImageTimerOff.displayName = 'ImageTimerOff';
-ImageTimerOff.muiName = 'SvgIcon';
 
 exports.default = ImageTimerOff;

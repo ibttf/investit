@@ -29,6 +29,5 @@ var SocialSentimentDissatisfied = function SocialSentimentDissatisfied(props) {
 };
 SocialSentimentDissatisfied = (0, _pure2.default)(SocialSentimentDissatisfied);
 SocialSentimentDissatisfied.displayName = 'SocialSentimentDissatisfied';
-SocialSentimentDissatisfied.muiName = 'SvgIcon';
 
 exports.default = SocialSentimentDissatisfied;

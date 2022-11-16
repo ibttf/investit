@@ -27,6 +27,5 @@ var ActionPermIdentity = function ActionPermIdentity(props) {
 };
 ActionPermIdentity = (0, _pure2.default)(ActionPermIdentity);
 ActionPermIdentity.displayName = 'ActionPermIdentity';
-ActionPermIdentity.muiName = 'SvgIcon';
 
 exports.default = ActionPermIdentity;

@@ -27,6 +27,5 @@ var ActionYoutubeSearchedFor = function ActionYoutubeSearchedFor(props) {
 };
 ActionYoutubeSearchedFor = (0, _pure2.default)(ActionYoutubeSearchedFor);
 ActionYoutubeSearchedFor.displayName = 'ActionYoutubeSearchedFor';
-ActionYoutubeSearchedFor.muiName = 'SvgIcon';
 
 exports.default = ActionYoutubeSearchedFor;

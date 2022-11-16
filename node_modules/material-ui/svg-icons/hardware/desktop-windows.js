@@ -27,6 +27,5 @@ var HardwareDesktopWindows = function HardwareDesktopWindows(props) {
 };
 HardwareDesktopWindows = (0, _pure2.default)(HardwareDesktopWindows);
 HardwareDesktopWindows.displayName = 'HardwareDesktopWindows';
-HardwareDesktopWindows.muiName = 'SvgIcon';
 
 exports.default = HardwareDesktopWindows;

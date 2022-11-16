@@ -27,6 +27,5 @@ var ContentBackspace = function ContentBackspace(props) {
 };
 ContentBackspace = (0, _pure2.default)(ContentBackspace);
 ContentBackspace.displayName = 'ContentBackspace';
-ContentBackspace.muiName = 'SvgIcon';
 
 exports.default = ContentBackspace;

@@ -27,6 +27,5 @@ var ActionToll = function ActionToll(props) {
 };
 ActionToll = (0, _pure2.default)(ActionToll);
 ActionToll.displayName = 'ActionToll';
-ActionToll.muiName = 'SvgIcon';
 
 exports.default = ActionToll;

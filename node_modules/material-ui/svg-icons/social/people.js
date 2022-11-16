@@ -27,6 +27,5 @@ var SocialPeople = function SocialPeople(props) {
 };
 SocialPeople = (0, _pure2.default)(SocialPeople);
 SocialPeople.displayName = 'SocialPeople';
-SocialPeople.muiName = 'SvgIcon';
 
 exports.default = SocialPeople;

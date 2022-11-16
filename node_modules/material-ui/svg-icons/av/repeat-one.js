@@ -27,6 +27,5 @@ var AvRepeatOne = function AvRepeatOne(props) {
 };
 AvRepeatOne = (0, _pure2.default)(AvRepeatOne);
 AvRepeatOne.displayName = 'AvRepeatOne';
-AvRepeatOne.muiName = 'SvgIcon';
 
 exports.default = AvRepeatOne;

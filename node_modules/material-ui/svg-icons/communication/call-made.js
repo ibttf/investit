@@ -27,6 +27,5 @@ var CommunicationCallMade = function CommunicationCallMade(props) {
 };
 CommunicationCallMade = (0, _pure2.default)(CommunicationCallMade);
 CommunicationCallMade.displayName = 'CommunicationCallMade';
-CommunicationCallMade.muiName = 'SvgIcon';
 
 exports.default = CommunicationCallMade;

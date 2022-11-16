@@ -27,6 +27,5 @@ var DeviceBluetoothConnected = function DeviceBluetoothConnected(props) {
 };
 DeviceBluetoothConnected = (0, _pure2.default)(DeviceBluetoothConnected);
 DeviceBluetoothConnected.displayName = 'DeviceBluetoothConnected';
-DeviceBluetoothConnected.muiName = 'SvgIcon';
 
 exports.default = DeviceBluetoothConnected;

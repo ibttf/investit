@@ -27,6 +27,5 @@ var ActionSettingsInputComponent = function ActionSettingsInputComponent(props) 
 };
 ActionSettingsInputComponent = (0, _pure2.default)(ActionSettingsInputComponent);
 ActionSettingsInputComponent.displayName = 'ActionSettingsInputComponent';
-ActionSettingsInputComponent.muiName = 'SvgIcon';
 
 exports.default = ActionSettingsInputComponent;

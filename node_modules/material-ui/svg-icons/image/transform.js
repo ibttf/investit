@@ -27,6 +27,5 @@ var ImageTransform = function ImageTransform(props) {
 };
 ImageTransform = (0, _pure2.default)(ImageTransform);
 ImageTransform.displayName = 'ImageTransform';
-ImageTransform.muiName = 'SvgIcon';
 
 exports.default = ImageTransform;

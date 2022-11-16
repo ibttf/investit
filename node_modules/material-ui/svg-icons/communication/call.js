@@ -27,6 +27,5 @@ var CommunicationCall = function CommunicationCall(props) {
 };
 CommunicationCall = (0, _pure2.default)(CommunicationCall);
 CommunicationCall.displayName = 'CommunicationCall';
-CommunicationCall.muiName = 'SvgIcon';
 
 exports.default = CommunicationCall;

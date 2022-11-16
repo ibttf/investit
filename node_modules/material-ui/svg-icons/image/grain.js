@@ -27,6 +27,5 @@ var ImageGrain = function ImageGrain(props) {
 };
 ImageGrain = (0, _pure2.default)(ImageGrain);
 ImageGrain.displayName = 'ImageGrain';
-ImageGrain.muiName = 'SvgIcon';
 
 exports.default = ImageGrain;

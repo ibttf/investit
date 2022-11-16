@@ -27,6 +27,5 @@ var FileCloudUpload = function FileCloudUpload(props) {
 };
 FileCloudUpload = (0, _pure2.default)(FileCloudUpload);
 FileCloudUpload.displayName = 'FileCloudUpload';
-FileCloudUpload.muiName = 'SvgIcon';
 
 exports.default = FileCloudUpload;

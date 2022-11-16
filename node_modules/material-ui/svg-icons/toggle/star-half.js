@@ -27,6 +27,5 @@ var ToggleStarHalf = function ToggleStarHalf(props) {
 };
 ToggleStarHalf = (0, _pure2.default)(ToggleStarHalf);
 ToggleStarHalf.displayName = 'ToggleStarHalf';
-ToggleStarHalf.muiName = 'SvgIcon';
 
 exports.default = ToggleStarHalf;

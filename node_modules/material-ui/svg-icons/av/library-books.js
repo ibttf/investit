@@ -27,6 +27,5 @@ var AvLibraryBooks = function AvLibraryBooks(props) {
 };
 AvLibraryBooks = (0, _pure2.default)(AvLibraryBooks);
 AvLibraryBooks.displayName = 'AvLibraryBooks';
-AvLibraryBooks.muiName = 'SvgIcon';
 
 exports.default = AvLibraryBooks;

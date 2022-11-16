@@ -27,6 +27,5 @@ var ActionAssignmentTurnedIn = function ActionAssignmentTurnedIn(props) {
 };
 ActionAssignmentTurnedIn = (0, _pure2.default)(ActionAssignmentTurnedIn);
 ActionAssignmentTurnedIn.displayName = 'ActionAssignmentTurnedIn';
-ActionAssignmentTurnedIn.muiName = 'SvgIcon';
 
 exports.default = ActionAssignmentTurnedIn;

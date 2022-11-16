@@ -27,6 +27,5 @@ var NotificationAirlineSeatLegroomExtra = function NotificationAirlineSeatLegroo
 };
 NotificationAirlineSeatLegroomExtra = (0, _pure2.default)(NotificationAirlineSeatLegroomExtra);
 NotificationAirlineSeatLegroomExtra.displayName = 'NotificationAirlineSeatLegroomExtra';
-NotificationAirlineSeatLegroomExtra.muiName = 'SvgIcon';
 
 exports.default = NotificationAirlineSeatLegroomExtra;

@@ -27,6 +27,5 @@ var NotificationNoEncryption = function NotificationNoEncryption(props) {
 };
 NotificationNoEncryption = (0, _pure2.default)(NotificationNoEncryption);
 NotificationNoEncryption.displayName = 'NotificationNoEncryption';
-NotificationNoEncryption.muiName = 'SvgIcon';
 
 exports.default = NotificationNoEncryption;

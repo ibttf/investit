@@ -27,6 +27,5 @@ var EditorFormatSize = function EditorFormatSize(props) {
 };
 EditorFormatSize = (0, _pure2.default)(EditorFormatSize);
 EditorFormatSize.displayName = 'EditorFormatSize';
-EditorFormatSize.muiName = 'SvgIcon';
 
 exports.default = EditorFormatSize;

@@ -27,6 +27,5 @@ var ImageFlashAuto = function ImageFlashAuto(props) {
 };
 ImageFlashAuto = (0, _pure2.default)(ImageFlashAuto);
 ImageFlashAuto.displayName = 'ImageFlashAuto';
-ImageFlashAuto.muiName = 'SvgIcon';
 
 exports.default = ImageFlashAuto;

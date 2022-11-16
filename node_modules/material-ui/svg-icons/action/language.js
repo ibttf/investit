@@ -27,6 +27,5 @@ var ActionLanguage = function ActionLanguage(props) {
 };
 ActionLanguage = (0, _pure2.default)(ActionLanguage);
 ActionLanguage.displayName = 'ActionLanguage';
-ActionLanguage.muiName = 'SvgIcon';
 
 exports.default = ActionLanguage;

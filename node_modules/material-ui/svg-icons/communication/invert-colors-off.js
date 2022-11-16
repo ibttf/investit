@@ -27,6 +27,5 @@ var CommunicationInvertColorsOff = function CommunicationInvertColorsOff(props) 
 };
 CommunicationInvertColorsOff = (0, _pure2.default)(CommunicationInvertColorsOff);
 CommunicationInvertColorsOff.displayName = 'CommunicationInvertColorsOff';
-CommunicationInvertColorsOff.muiName = 'SvgIcon';
 
 exports.default = CommunicationInvertColorsOff;

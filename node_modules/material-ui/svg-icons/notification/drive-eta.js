@@ -27,6 +27,5 @@ var NotificationDriveEta = function NotificationDriveEta(props) {
 };
 NotificationDriveEta = (0, _pure2.default)(NotificationDriveEta);
 NotificationDriveEta.displayName = 'NotificationDriveEta';
-NotificationDriveEta.muiName = 'SvgIcon';
 
 exports.default = NotificationDriveEta;

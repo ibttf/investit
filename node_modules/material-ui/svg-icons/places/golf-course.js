@@ -28,6 +28,5 @@ var PlacesGolfCourse = function PlacesGolfCourse(props) {
 };
 PlacesGolfCourse = (0, _pure2.default)(PlacesGolfCourse);
 PlacesGolfCourse.displayName = 'PlacesGolfCourse';
-PlacesGolfCourse.muiName = 'SvgIcon';
 
 exports.default = PlacesGolfCourse;

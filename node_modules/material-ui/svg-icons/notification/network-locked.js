@@ -27,6 +27,5 @@ var NotificationNetworkLocked = function NotificationNetworkLocked(props) {
 };
 NotificationNetworkLocked = (0, _pure2.default)(NotificationNetworkLocked);
 NotificationNetworkLocked.displayName = 'NotificationNetworkLocked';
-NotificationNetworkLocked.muiName = 'SvgIcon';
 
 exports.default = NotificationNetworkLocked;

@@ -4,7 +4,10 @@ class CreateTickers < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :full_name
       t.integer :shares_owned
-      
+      t.float :purchase_price
+      t.string :security_type
+      t.float :daily_change
+      t.float :current_price
       t.timestamps
     end
   end

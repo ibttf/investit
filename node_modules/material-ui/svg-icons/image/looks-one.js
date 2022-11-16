@@ -27,6 +27,5 @@ var ImageLooksOne = function ImageLooksOne(props) {
 };
 ImageLooksOne = (0, _pure2.default)(ImageLooksOne);
 ImageLooksOne.displayName = 'ImageLooksOne';
-ImageLooksOne.muiName = 'SvgIcon';
 
 exports.default = ImageLooksOne;

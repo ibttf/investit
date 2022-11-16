@@ -27,6 +27,5 @@ var ActionGroupWork = function ActionGroupWork(props) {
 };
 ActionGroupWork = (0, _pure2.default)(ActionGroupWork);
 ActionGroupWork.displayName = 'ActionGroupWork';
-ActionGroupWork.muiName = 'SvgIcon';
 
 exports.default = ActionGroupWork;

@@ -27,6 +27,5 @@ var CommunicationMailOutline = function CommunicationMailOutline(props) {
 };
 CommunicationMailOutline = (0, _pure2.default)(CommunicationMailOutline);
 CommunicationMailOutline.displayName = 'CommunicationMailOutline';
-CommunicationMailOutline.muiName = 'SvgIcon';
 
 exports.default = CommunicationMailOutline;

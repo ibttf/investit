@@ -27,6 +27,5 @@ var DeviceBatteryAlert = function DeviceBatteryAlert(props) {
 };
 DeviceBatteryAlert = (0, _pure2.default)(DeviceBatteryAlert);
 DeviceBatteryAlert.displayName = 'DeviceBatteryAlert';
-DeviceBatteryAlert.muiName = 'SvgIcon';
 
 exports.default = DeviceBatteryAlert;

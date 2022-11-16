@@ -27,6 +27,5 @@ var ActionEventSeat = function ActionEventSeat(props) {
 };
 ActionEventSeat = (0, _pure2.default)(ActionEventSeat);
 ActionEventSeat.displayName = 'ActionEventSeat';
-ActionEventSeat.muiName = 'SvgIcon';
 
 exports.default = ActionEventSeat;

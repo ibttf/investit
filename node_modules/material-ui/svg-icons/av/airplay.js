@@ -27,6 +27,5 @@ var AvAirplay = function AvAirplay(props) {
 };
 AvAirplay = (0, _pure2.default)(AvAirplay);
 AvAirplay.displayName = 'AvAirplay';
-AvAirplay.muiName = 'SvgIcon';
 
 exports.default = AvAirplay;

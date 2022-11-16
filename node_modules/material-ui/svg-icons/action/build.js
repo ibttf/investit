@@ -27,6 +27,5 @@ var ActionBuild = function ActionBuild(props) {
 };
 ActionBuild = (0, _pure2.default)(ActionBuild);
 ActionBuild.displayName = 'ActionBuild';
-ActionBuild.muiName = 'SvgIcon';
 
 exports.default = ActionBuild;

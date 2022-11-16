@@ -27,6 +27,5 @@ var HardwareHeadsetMic = function HardwareHeadsetMic(props) {
 };
 HardwareHeadsetMic = (0, _pure2.default)(HardwareHeadsetMic);
 HardwareHeadsetMic.displayName = 'HardwareHeadsetMic';
-HardwareHeadsetMic.muiName = 'SvgIcon';
 
 exports.default = HardwareHeadsetMic;

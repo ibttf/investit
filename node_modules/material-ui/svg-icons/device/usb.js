@@ -27,6 +27,5 @@ var DeviceUsb = function DeviceUsb(props) {
 };
 DeviceUsb = (0, _pure2.default)(DeviceUsb);
 DeviceUsb.displayName = 'DeviceUsb';
-DeviceUsb.muiName = 'SvgIcon';
 
 exports.default = DeviceUsb;

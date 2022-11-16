@@ -27,6 +27,5 @@ var EditorTitle = function EditorTitle(props) {
 };
 EditorTitle = (0, _pure2.default)(EditorTitle);
 EditorTitle.displayName = 'EditorTitle';
-EditorTitle.muiName = 'SvgIcon';
 
 exports.default = EditorTitle;

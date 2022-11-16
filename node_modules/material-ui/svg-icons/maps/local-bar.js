@@ -27,6 +27,5 @@ var MapsLocalBar = function MapsLocalBar(props) {
 };
 MapsLocalBar = (0, _pure2.default)(MapsLocalBar);
 MapsLocalBar.displayName = 'MapsLocalBar';
-MapsLocalBar.muiName = 'SvgIcon';
 
 exports.default = MapsLocalBar;

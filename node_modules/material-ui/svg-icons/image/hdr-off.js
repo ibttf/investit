@@ -27,6 +27,5 @@ var ImageHdrOff = function ImageHdrOff(props) {
 };
 ImageHdrOff = (0, _pure2.default)(ImageHdrOff);
 ImageHdrOff.displayName = 'ImageHdrOff';
-ImageHdrOff.muiName = 'SvgIcon';
 
 exports.default = ImageHdrOff;

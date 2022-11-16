@@ -27,6 +27,5 @@ var CommunicationChatBubbleOutline = function CommunicationChatBubbleOutline(pro
 };
 CommunicationChatBubbleOutline = (0, _pure2.default)(CommunicationChatBubbleOutline);
 CommunicationChatBubbleOutline.displayName = 'CommunicationChatBubbleOutline';
-CommunicationChatBubbleOutline.muiName = 'SvgIcon';
 
 exports.default = CommunicationChatBubbleOutline;

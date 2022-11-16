@@ -27,6 +27,5 @@ var ImageCollectionsBookmark = function ImageCollectionsBookmark(props) {
 };
 ImageCollectionsBookmark = (0, _pure2.default)(ImageCollectionsBookmark);
 ImageCollectionsBookmark.displayName = 'ImageCollectionsBookmark';
-ImageCollectionsBookmark.muiName = 'SvgIcon';
 
 exports.default = ImageCollectionsBookmark;

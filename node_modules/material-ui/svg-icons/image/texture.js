@@ -27,6 +27,5 @@ var ImageTexture = function ImageTexture(props) {
 };
 ImageTexture = (0, _pure2.default)(ImageTexture);
 ImageTexture.displayName = 'ImageTexture';
-ImageTexture.muiName = 'SvgIcon';
 
 exports.default = ImageTexture;

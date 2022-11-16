@@ -27,6 +27,5 @@ var ActionPermDeviceInformation = function ActionPermDeviceInformation(props) {
 };
 ActionPermDeviceInformation = (0, _pure2.default)(ActionPermDeviceInformation);
 ActionPermDeviceInformation.displayName = 'ActionPermDeviceInformation';
-ActionPermDeviceInformation.muiName = 'SvgIcon';
 
 exports.default = ActionPermDeviceInformation;

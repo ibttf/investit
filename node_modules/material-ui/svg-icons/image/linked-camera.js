@@ -29,6 +29,5 @@ var ImageLinkedCamera = function ImageLinkedCamera(props) {
 };
 ImageLinkedCamera = (0, _pure2.default)(ImageLinkedCamera);
 ImageLinkedCamera.displayName = 'ImageLinkedCamera';
-ImageLinkedCamera.muiName = 'SvgIcon';
 
 exports.default = ImageLinkedCamera;

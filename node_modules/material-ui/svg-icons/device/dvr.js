@@ -27,6 +27,5 @@ var DeviceDvr = function DeviceDvr(props) {
 };
 DeviceDvr = (0, _pure2.default)(DeviceDvr);
 DeviceDvr.displayName = 'DeviceDvr';
-DeviceDvr.muiName = 'SvgIcon';
 
 exports.default = DeviceDvr;

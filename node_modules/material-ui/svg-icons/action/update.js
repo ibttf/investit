@@ -27,6 +27,5 @@ var ActionUpdate = function ActionUpdate(props) {
 };
 ActionUpdate = (0, _pure2.default)(ActionUpdate);
 ActionUpdate.displayName = 'ActionUpdate';
-ActionUpdate.muiName = 'SvgIcon';
 
 exports.default = ActionUpdate;

@@ -27,6 +27,5 @@ var ActionHttp = function ActionHttp(props) {
 };
 ActionHttp = (0, _pure2.default)(ActionHttp);
 ActionHttp.displayName = 'ActionHttp';
-ActionHttp.muiName = 'SvgIcon';
 
 exports.default = ActionHttp;

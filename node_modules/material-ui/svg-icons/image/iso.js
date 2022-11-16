@@ -27,6 +27,5 @@ var ImageIso = function ImageIso(props) {
 };
 ImageIso = (0, _pure2.default)(ImageIso);
 ImageIso.displayName = 'ImageIso';
-ImageIso.muiName = 'SvgIcon';
 
 exports.default = ImageIso;

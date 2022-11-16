@@ -27,6 +27,5 @@ var MapsLocalGasStation = function MapsLocalGasStation(props) {
 };
 MapsLocalGasStation = (0, _pure2.default)(MapsLocalGasStation);
 MapsLocalGasStation.displayName = 'MapsLocalGasStation';
-MapsLocalGasStation.muiName = 'SvgIcon';
 
 exports.default = MapsLocalGasStation;

@@ -27,6 +27,5 @@ var EditorPublish = function EditorPublish(props) {
 };
 EditorPublish = (0, _pure2.default)(EditorPublish);
 EditorPublish.displayName = 'EditorPublish';
-EditorPublish.muiName = 'SvgIcon';
 
 exports.default = EditorPublish;

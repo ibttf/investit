@@ -27,6 +27,5 @@ var HardwareTabletAndroid = function HardwareTabletAndroid(props) {
 };
 HardwareTabletAndroid = (0, _pure2.default)(HardwareTabletAndroid);
 HardwareTabletAndroid.displayName = 'HardwareTabletAndroid';
-HardwareTabletAndroid.muiName = 'SvgIcon';
 
 exports.default = HardwareTabletAndroid;

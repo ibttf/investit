@@ -27,6 +27,5 @@ var ActionChangeHistory = function ActionChangeHistory(props) {
 };
 ActionChangeHistory = (0, _pure2.default)(ActionChangeHistory);
 ActionChangeHistory.displayName = 'ActionChangeHistory';
-ActionChangeHistory.muiName = 'SvgIcon';
 
 exports.default = ActionChangeHistory;

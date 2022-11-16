@@ -27,6 +27,5 @@ var MapsPersonPin = function MapsPersonPin(props) {
 };
 MapsPersonPin = (0, _pure2.default)(MapsPersonPin);
 MapsPersonPin.displayName = 'MapsPersonPin';
-MapsPersonPin.muiName = 'SvgIcon';
 
 exports.default = MapsPersonPin;

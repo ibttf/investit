@@ -27,6 +27,5 @@ var ActionReportProblem = function ActionReportProblem(props) {
 };
 ActionReportProblem = (0, _pure2.default)(ActionReportProblem);
 ActionReportProblem.displayName = 'ActionReportProblem';
-ActionReportProblem.muiName = 'SvgIcon';
 
 exports.default = ActionReportProblem;

@@ -27,6 +27,5 @@ var ActionOpenInBrowser = function ActionOpenInBrowser(props) {
 };
 ActionOpenInBrowser = (0, _pure2.default)(ActionOpenInBrowser);
 ActionOpenInBrowser.displayName = 'ActionOpenInBrowser';
-ActionOpenInBrowser.muiName = 'SvgIcon';
 
 exports.default = ActionOpenInBrowser;

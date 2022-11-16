@@ -27,6 +27,5 @@ var PlacesChildFriendly = function PlacesChildFriendly(props) {
 };
 PlacesChildFriendly = (0, _pure2.default)(PlacesChildFriendly);
 PlacesChildFriendly.displayName = 'PlacesChildFriendly';
-PlacesChildFriendly.muiName = 'SvgIcon';
 
 exports.default = PlacesChildFriendly;

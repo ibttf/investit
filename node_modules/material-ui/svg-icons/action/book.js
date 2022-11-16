@@ -27,6 +27,5 @@ var ActionBook = function ActionBook(props) {
 };
 ActionBook = (0, _pure2.default)(ActionBook);
 ActionBook.displayName = 'ActionBook';
-ActionBook.muiName = 'SvgIcon';
 
 exports.default = ActionBook;

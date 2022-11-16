@@ -27,6 +27,5 @@ var ImageCropLandscape = function ImageCropLandscape(props) {
 };
 ImageCropLandscape = (0, _pure2.default)(ImageCropLandscape);
 ImageCropLandscape.displayName = 'ImageCropLandscape';
-ImageCropLandscape.muiName = 'SvgIcon';
 
 exports.default = ImageCropLandscape;

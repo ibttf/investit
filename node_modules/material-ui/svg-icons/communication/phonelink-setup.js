@@ -27,6 +27,5 @@ var CommunicationPhonelinkSetup = function CommunicationPhonelinkSetup(props) {
 };
 CommunicationPhonelinkSetup = (0, _pure2.default)(CommunicationPhonelinkSetup);
 CommunicationPhonelinkSetup.displayName = 'CommunicationPhonelinkSetup';
-CommunicationPhonelinkSetup.muiName = 'SvgIcon';
 
 exports.default = CommunicationPhonelinkSetup;

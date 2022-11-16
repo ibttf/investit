@@ -27,6 +27,5 @@ var ActionPayment = function ActionPayment(props) {
 };
 ActionPayment = (0, _pure2.default)(ActionPayment);
 ActionPayment.displayName = 'ActionPayment';
-ActionPayment.muiName = 'SvgIcon';
 
 exports.default = ActionPayment;

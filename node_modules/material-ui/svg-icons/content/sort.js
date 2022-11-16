@@ -27,6 +27,5 @@ var ContentSort = function ContentSort(props) {
 };
 ContentSort = (0, _pure2.default)(ContentSort);
 ContentSort.displayName = 'ContentSort';
-ContentSort.muiName = 'SvgIcon';
 
 exports.default = ContentSort;

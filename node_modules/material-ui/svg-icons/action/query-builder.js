@@ -27,6 +27,5 @@ var ActionQueryBuilder = function ActionQueryBuilder(props) {
 };
 ActionQueryBuilder = (0, _pure2.default)(ActionQueryBuilder);
 ActionQueryBuilder.displayName = 'ActionQueryBuilder';
-ActionQueryBuilder.muiName = 'SvgIcon';
 
 exports.default = ActionQueryBuilder;

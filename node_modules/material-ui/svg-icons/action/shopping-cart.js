@@ -27,6 +27,5 @@ var ActionShoppingCart = function ActionShoppingCart(props) {
 };
 ActionShoppingCart = (0, _pure2.default)(ActionShoppingCart);
 ActionShoppingCart.displayName = 'ActionShoppingCart';
-ActionShoppingCart.muiName = 'SvgIcon';
 
 exports.default = ActionShoppingCart;

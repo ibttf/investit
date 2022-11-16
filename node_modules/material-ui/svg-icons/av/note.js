@@ -27,6 +27,5 @@ var AvNote = function AvNote(props) {
 };
 AvNote = (0, _pure2.default)(AvNote);
 AvNote.displayName = 'AvNote';
-AvNote.muiName = 'SvgIcon';
 
 exports.default = AvNote;

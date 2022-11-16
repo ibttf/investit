@@ -27,6 +27,5 @@ var ContentSave = function ContentSave(props) {
 };
 ContentSave = (0, _pure2.default)(ContentSave);
 ContentSave.displayName = 'ContentSave';
-ContentSave.muiName = 'SvgIcon';
 
 exports.default = ContentSave;

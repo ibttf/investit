@@ -27,6 +27,5 @@ var EditorMonetizationOn = function EditorMonetizationOn(props) {
 };
 EditorMonetizationOn = (0, _pure2.default)(EditorMonetizationOn);
 EditorMonetizationOn.displayName = 'EditorMonetizationOn';
-EditorMonetizationOn.muiName = 'SvgIcon';
 
 exports.default = EditorMonetizationOn;

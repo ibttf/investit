@@ -27,6 +27,5 @@ var HardwareKeyboardBackspace = function HardwareKeyboardBackspace(props) {
 };
 HardwareKeyboardBackspace = (0, _pure2.default)(HardwareKeyboardBackspace);
 HardwareKeyboardBackspace.displayName = 'HardwareKeyboardBackspace';
-HardwareKeyboardBackspace.muiName = 'SvgIcon';
 
 exports.default = HardwareKeyboardBackspace;

@@ -27,6 +27,5 @@ var ActionAlarmOff = function ActionAlarmOff(props) {
 };
 ActionAlarmOff = (0, _pure2.default)(ActionAlarmOff);
 ActionAlarmOff.displayName = 'ActionAlarmOff';
-ActionAlarmOff.muiName = 'SvgIcon';
 
 exports.default = ActionAlarmOff;

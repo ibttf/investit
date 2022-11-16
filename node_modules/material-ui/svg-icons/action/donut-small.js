@@ -27,6 +27,5 @@ var ActionDonutSmall = function ActionDonutSmall(props) {
 };
 ActionDonutSmall = (0, _pure2.default)(ActionDonutSmall);
 ActionDonutSmall.displayName = 'ActionDonutSmall';
-ActionDonutSmall.muiName = 'SvgIcon';
 
 exports.default = ActionDonutSmall;

@@ -27,6 +27,5 @@ var ActionCode = function ActionCode(props) {
 };
 ActionCode = (0, _pure2.default)(ActionCode);
 ActionCode.displayName = 'ActionCode';
-ActionCode.muiName = 'SvgIcon';
 
 exports.default = ActionCode;

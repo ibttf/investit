@@ -27,6 +27,5 @@ var ActionPermScanWifi = function ActionPermScanWifi(props) {
 };
 ActionPermScanWifi = (0, _pure2.default)(ActionPermScanWifi);
 ActionPermScanWifi.displayName = 'ActionPermScanWifi';
-ActionPermScanWifi.muiName = 'SvgIcon';
 
 exports.default = ActionPermScanWifi;

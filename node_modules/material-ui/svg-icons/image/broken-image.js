@@ -27,6 +27,5 @@ var ImageBrokenImage = function ImageBrokenImage(props) {
 };
 ImageBrokenImage = (0, _pure2.default)(ImageBrokenImage);
 ImageBrokenImage.displayName = 'ImageBrokenImage';
-ImageBrokenImage.muiName = 'SvgIcon';
 
 exports.default = ImageBrokenImage;

@@ -27,6 +27,5 @@ var NotificationFolderSpecial = function NotificationFolderSpecial(props) {
 };
 NotificationFolderSpecial = (0, _pure2.default)(NotificationFolderSpecial);
 NotificationFolderSpecial.displayName = 'NotificationFolderSpecial';
-NotificationFolderSpecial.muiName = 'SvgIcon';
 
 exports.default = NotificationFolderSpecial;

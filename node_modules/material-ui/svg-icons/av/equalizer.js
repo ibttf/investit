@@ -27,6 +27,5 @@ var AvEqualizer = function AvEqualizer(props) {
 };
 AvEqualizer = (0, _pure2.default)(AvEqualizer);
 AvEqualizer.displayName = 'AvEqualizer';
-AvEqualizer.muiName = 'SvgIcon';
 
 exports.default = AvEqualizer;

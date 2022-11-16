@@ -27,6 +27,5 @@ var NotificationBluetoothAudio = function NotificationBluetoothAudio(props) {
 };
 NotificationBluetoothAudio = (0, _pure2.default)(NotificationBluetoothAudio);
 NotificationBluetoothAudio.displayName = 'NotificationBluetoothAudio';
-NotificationBluetoothAudio.muiName = 'SvgIcon';
 
 exports.default = NotificationBluetoothAudio;

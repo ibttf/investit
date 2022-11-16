@@ -27,6 +27,5 @@ var MapsDirectionsBoat = function MapsDirectionsBoat(props) {
 };
 MapsDirectionsBoat = (0, _pure2.default)(MapsDirectionsBoat);
 MapsDirectionsBoat.displayName = 'MapsDirectionsBoat';
-MapsDirectionsBoat.muiName = 'SvgIcon';
 
 exports.default = MapsDirectionsBoat;

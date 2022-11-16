@@ -27,6 +27,5 @@ var AlertWarning = function AlertWarning(props) {
 };
 AlertWarning = (0, _pure2.default)(AlertWarning);
 AlertWarning.displayName = 'AlertWarning';
-AlertWarning.muiName = 'SvgIcon';
 
 exports.default = AlertWarning;

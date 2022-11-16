@@ -27,6 +27,5 @@ var ContentLowPriority = function ContentLowPriority(props) {
 };
 ContentLowPriority = (0, _pure2.default)(ContentLowPriority);
 ContentLowPriority.displayName = 'ContentLowPriority';
-ContentLowPriority.muiName = 'SvgIcon';
 
 exports.default = ContentLowPriority;

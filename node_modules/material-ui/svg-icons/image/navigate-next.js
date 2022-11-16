@@ -27,6 +27,5 @@ var ImageNavigateNext = function ImageNavigateNext(props) {
 };
 ImageNavigateNext = (0, _pure2.default)(ImageNavigateNext);
 ImageNavigateNext.displayName = 'ImageNavigateNext';
-ImageNavigateNext.muiName = 'SvgIcon';
 
 exports.default = ImageNavigateNext;

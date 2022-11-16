@@ -27,6 +27,5 @@ var AvVolumeDown = function AvVolumeDown(props) {
 };
 AvVolumeDown = (0, _pure2.default)(AvVolumeDown);
 AvVolumeDown.displayName = 'AvVolumeDown';
-AvVolumeDown.muiName = 'SvgIcon';
 
 exports.default = AvVolumeDown;

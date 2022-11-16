@@ -27,6 +27,5 @@ var ActionSpeakerNotes = function ActionSpeakerNotes(props) {
 };
 ActionSpeakerNotes = (0, _pure2.default)(ActionSpeakerNotes);
 ActionSpeakerNotes.displayName = 'ActionSpeakerNotes';
-ActionSpeakerNotes.muiName = 'SvgIcon';
 
 exports.default = ActionSpeakerNotes;

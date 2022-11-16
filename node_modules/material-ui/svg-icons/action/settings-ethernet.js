@@ -27,6 +27,5 @@ var ActionSettingsEthernet = function ActionSettingsEthernet(props) {
 };
 ActionSettingsEthernet = (0, _pure2.default)(ActionSettingsEthernet);
 ActionSettingsEthernet.displayName = 'ActionSettingsEthernet';
-ActionSettingsEthernet.muiName = 'SvgIcon';
 
 exports.default = ActionSettingsEthernet;

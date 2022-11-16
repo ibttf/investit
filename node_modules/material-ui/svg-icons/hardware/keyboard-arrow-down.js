@@ -27,6 +27,5 @@ var HardwareKeyboardArrowDown = function HardwareKeyboardArrowDown(props) {
 };
 HardwareKeyboardArrowDown = (0, _pure2.default)(HardwareKeyboardArrowDown);
 HardwareKeyboardArrowDown.displayName = 'HardwareKeyboardArrowDown';
-HardwareKeyboardArrowDown.muiName = 'SvgIcon';
 
 exports.default = HardwareKeyboardArrowDown;

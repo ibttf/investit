@@ -27,6 +27,5 @@ var EditorPieChartOutlined = function EditorPieChartOutlined(props) {
 };
 EditorPieChartOutlined = (0, _pure2.default)(EditorPieChartOutlined);
 EditorPieChartOutlined.displayName = 'EditorPieChartOutlined';
-EditorPieChartOutlined.muiName = 'SvgIcon';
 
 exports.default = EditorPieChartOutlined;

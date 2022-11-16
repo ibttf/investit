@@ -27,6 +27,5 @@ var ImageCropDin = function ImageCropDin(props) {
 };
 ImageCropDin = (0, _pure2.default)(ImageCropDin);
 ImageCropDin.displayName = 'ImageCropDin';
-ImageCropDin.muiName = 'SvgIcon';
 
 exports.default = ImageCropDin;

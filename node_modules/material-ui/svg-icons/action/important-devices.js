@@ -27,6 +27,5 @@ var ActionImportantDevices = function ActionImportantDevices(props) {
 };
 ActionImportantDevices = (0, _pure2.default)(ActionImportantDevices);
 ActionImportantDevices.displayName = 'ActionImportantDevices';
-ActionImportantDevices.muiName = 'SvgIcon';
 
 exports.default = ActionImportantDevices;

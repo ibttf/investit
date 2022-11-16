@@ -27,6 +27,5 @@ var EditorHighlight = function EditorHighlight(props) {
 };
 EditorHighlight = (0, _pure2.default)(EditorHighlight);
 EditorHighlight.displayName = 'EditorHighlight';
-EditorHighlight.muiName = 'SvgIcon';
 
 exports.default = EditorHighlight;

@@ -27,6 +27,5 @@ var NotificationWc = function NotificationWc(props) {
 };
 NotificationWc = (0, _pure2.default)(NotificationWc);
 NotificationWc.displayName = 'NotificationWc';
-NotificationWc.muiName = 'SvgIcon';
 
 exports.default = NotificationWc;

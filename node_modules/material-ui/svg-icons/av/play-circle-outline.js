@@ -27,6 +27,5 @@ var AvPlayCircleOutline = function AvPlayCircleOutline(props) {
 };
 AvPlayCircleOutline = (0, _pure2.default)(AvPlayCircleOutline);
 AvPlayCircleOutline.displayName = 'AvPlayCircleOutline';
-AvPlayCircleOutline.muiName = 'SvgIcon';
 
 exports.default = AvPlayCircleOutline;

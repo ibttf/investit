@@ -27,6 +27,5 @@ var MapsDirectionsSubway = function MapsDirectionsSubway(props) {
 };
 MapsDirectionsSubway = (0, _pure2.default)(MapsDirectionsSubway);
 MapsDirectionsSubway.displayName = 'MapsDirectionsSubway';
-MapsDirectionsSubway.muiName = 'SvgIcon';
 
 exports.default = MapsDirectionsSubway;

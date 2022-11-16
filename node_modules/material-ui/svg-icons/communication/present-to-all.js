@@ -27,6 +27,5 @@ var CommunicationPresentToAll = function CommunicationPresentToAll(props) {
 };
 CommunicationPresentToAll = (0, _pure2.default)(CommunicationPresentToAll);
 CommunicationPresentToAll.displayName = 'CommunicationPresentToAll';
-CommunicationPresentToAll.muiName = 'SvgIcon';
 
 exports.default = CommunicationPresentToAll;
