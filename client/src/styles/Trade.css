@@ -1,0 +1,119 @@
+.trade {
+  margin: 0 10%;
+}
+.account-info {
+  display: flex;
+}
+.account-info-col {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 85%);
+  margin: 10px 00;
+  padding: 10px 1%;
+  justify-content: left;
+  align-items: left;
+  height: 60px;
+  border-right: 1px solid #d8d8d8;
+}
+
+.account-info-col > p {
+  margin: 0;
+  font-size: 16px;
+}
+.market-info {
+  border: none;
+}
+.symbol-submit{
+  background-color:white;
+  border: none;
+  color: rgb(63, 63, 63);
+  font-size: 20px;
+  position: relative;
+  right: 3%;
+}
+.trade-submit {
+  position: relative;
+}
+.action-button{
+  margin-right: 10px;
+}
+.action-button:hover , .lookup-form-row-item > button:hover{
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+.lookup-form {
+  margin: 1% 0%;
+  padding: 1px 1% 1% 1%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+.lookup-form > form {
+  width: 100%;
+}
+.lookup-form > form > p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(63, 63, 63);
+}
+.lookup-form > form > input {
+  width: 50%;
+  padding: 22px;
+
+  font-size: 18px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  border: 1px solid #dddddd;
+}
+.lookup-form > form > input:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.lookup-form-row {
+  display: flex;
+  margin-top: 2%;
+}
+.lookup-form-row-item {
+  margin-right: 25%;
+}
+.lookup-form-row-item > p {
+  font-size: 15px;
+  font-weight: bold;
+
+  color: rgb(63, 63, 63);
+}
+.lookup-form-row-item > input {
+  width: 100%;
+  padding: 22px;
+
+  font-size: 18px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  border: 1px solid #dddddd;
+}
+.lookup-form-row-item > input:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.lookup-form-row-item > button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+}

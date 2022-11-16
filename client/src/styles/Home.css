@@ -1,77 +1,89 @@
 .home {
-  margin: 4% 5% 0% 10%;
+}
+.portfolio-cols {
+  display: flex;
+  margin: 1% 0 5% 0;
+}
+.portfolio-col {
+  width: fit-content;
+  height: 500px;
+  margin: 0 0% 0 5%;
+}
+.portfolio-col > p {
+  color: #d8d8d8;
+  font-size: 20px;
+  font-weight: bold;
+}
+.portfolio-overview {
+  background-color: rgb(19, 23, 34);
+  padding-left: 20px;
+  width: 15vw;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+.portfolio-performance {
+  background-color: rgb(19, 23, 34);
+  width: 69vw;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+.portfolio-holdings {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(19, 23, 34);
+  margin: 1% 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+.home > p {
+  margin-left: 5%;
+  color: #d8d8d8;
+  font-size: 20px;
+  font-weight: bold;
+}
+.portfolio-column-title {
+  font-size: 18px;
+  color: #d8d8d8;
+
+  padding: 10px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.ticker-info {
+  font-size: 18px;
+  color: #d8d8d8;
+  font-weight: bold;
+}
+.no-tickers-error {
+  text-align: center;
+  padding-top: 20%;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.change {
   display: flex;
 }
-.home-left {
-  width: 250%;
+.change-col {
+  margin-right: 10%;
 }
-.home-left > h4 {
-  font-family: sans-serif;
-  line-height: 0.7;
-  font-size: 13px;
-  transform: scale(1, 0.9);
-  margin-bottom: 0;
+.account-overview-small-text,
+.account-overview-medium-text,
+.account-overview-big-text {
+  color: #d8d8d8;
 }
-.home-left > h2 {
-  margin: 0;
-  font-size: 100px;
-  color: rgb(29, 29, 29);
-}
-.squiggle {
-  margin: 0;
-  height: 250px;
-  position: absolute;
-  left: 400px;
-  bottom: 210px;
-  transform: rotate(-2deg);
-}
-.home-left > h3 {
-  color: rgb(77, 77, 77);
-  font-weight: lighter;
-  font-size: 18px;
-  font-family: sans-serif;
-  margin-bottom: 0;
-}
-.home-btns {
-  padding: 5% 0% 0% 0%;
-}
-.home-btn {
-  border-radius: 100px;
-  padding: 13px;
-  margin-right: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
-  opacity: 70%;
-  font-size: 16px;
-}
-.home-btn:hover {
-  opacity: 100%;
-}
-.review-btn {
-  background-color: rgb(120, 120, 250);
-  color: white;
-  border: none;
-}
-.home-right {
-  margin-left: 12%;
-}
-.my-essays-btn {
-  background-color: rgb(208, 236, 245);
-  border: 2px solid rgb(161, 160, 160);
-}
-.hero-blob {
-  height: 600px;
-  width: 600px;
-  background-color: rgb(128, 128, 255);
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-}
-.hero-img-container {
-  position: relative;
-  bottom: 650px;
-  right: 80px;
-}
-.hero-img-container > img {
-  width: 100%;
+
+.account-overview-small-text {
+  font-size: 30px;
 }

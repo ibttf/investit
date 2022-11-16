@@ -2,32 +2,33 @@
   margin: 1% 10%;
   padding: 1px 1% 1% 1%;
   background-color: white;
-  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  box-shadow: 0 0 10px #d8d8d8;
 
-  border: 2px solid rgba(81, 203, 238, 1);
+  border: 2px solid #d8d8d8;
 }
 .ticker-submit-form > p {
   font-size: 15px;
   font-weight: bold;
-  color: rgb(63, 63, 63);
+  color: black;
 }
 .ticker-submit-form > input {
   width: 50%;
   padding: 22px;
   font-size: 18px;
   border-radius: 10px;
+  background-color: white;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   outline: none;
-
-  border: 1px solid #dddddd;
+  color: black;
+  border: 1px solid #d8d8d8;
 }
 .ticker-submit-form > input:focus {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px #d8d8d8;
 
-  border: 1px solid rgba(81, 203, 238, 1);
+  border: 1px solid #d8d8d8;
 }
 .ticker-submit-form > button {
   background-color: white;
@@ -36,6 +37,9 @@
   border: none;
   color: darkgray;
   font-size: 20px;
+}
+.ticker-submit-form > button:hover {
+  cursor: pointer;
 }
 .stock-info {
   display: flex;

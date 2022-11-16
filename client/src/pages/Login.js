@@ -2,10 +2,10 @@ import { useState } from "react";
 
 import LoginForm from "../components/LoginForm";
 import SignUpForm from "../components/SignUpForm";
-import { useHistory, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Login.css";
 function Login({ onLogin }) {
-  const history = useHistory();
+
   const [showLogin, setShowLogin] = useState(true);
 
   return (
