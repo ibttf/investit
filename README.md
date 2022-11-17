@@ -1,4 +1,4 @@
-# Revieword
+# Investit
 A website designed for people to be able to create a stock portfolio and research different securities.
 
 ## Table of Contents
