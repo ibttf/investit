@@ -76,3 +76,24 @@
   height: 0;
   transform: 200ms;
 }
+.more-dropdown{
+  background-color: #d8d8d8;
+  position: absolute;
+  z-index: 10;
+  left: 25%;
+  top: 70%;
+  border-radius: 20px;
+  text-align :center;
+  font-weight: bold;
+
+}
+
+.more-item{
+color: #636363;
+font-size: 18px;
+padding: 0px 20px;
+}
+.more-item:hover{
+  cursor:pointer;
+  color: black;
+}

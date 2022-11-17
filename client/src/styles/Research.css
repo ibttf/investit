@@ -31,7 +31,7 @@
   border: 1px solid #d8d8d8;
 }
 .ticker-submit-form > button {
-  background-color: white;
+  background-color: transparent;
   position: relative;
   right: 3%;
   border: none;
@@ -83,4 +83,22 @@
   color: #d8d8d8;
   font-size: 20px;
   font-weight: bold;
+}
+.read-more-button{
+ background-color: #182747;;
+   box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+ border: none;
+ padding: 20px 50px;
+ border-radius: 10px;
+ font-size :20px;
+ color: #d8d8d8;
+ margin-top: 2%;
+}
+.read-more-button:hover{
+  cursor:pointer;
+  background-color: rgb(31, 38, 56);
+  
+}
+.absent{
+  opacity: 00;
 }
