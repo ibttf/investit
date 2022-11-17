@@ -3,13 +3,13 @@ import Chart from "../components/Chart";
 import one from "../styles/home1.png"
 import two from "../styles/home2.png"
 import "../styles/Home.css";
-const Home = ({ user, setUser }) => {
+const Home = ({ user }) => {
   const [tickers, setTickers] = useState([]);
   const [value, setValue] = useState(0);
   const [buyingPower, setBuyingPower] = useState(0);
   const [dailyChange, setDailyChange] = useState(0);
   const [totalChange, setTotalChange] = useState(0);
-    const [isLoading,setIsLoading]=useState(true);
+  const [isLoading,setIsLoading]=useState(true);
   useEffect(() => {
     fetch("/tickers")
       .then((r) => r.json())
@@ -37,13 +37,7 @@ const Home = ({ user, setUser }) => {
         setTotalChange(Math.round(data.total_change * 100) / 100)
       );
   }, []);
-  function handleLogoutClick() {
-    fetch("/logout", { method: "DELETE" }).then((r) => {
-      if (r.ok) {
-        setUser(null);
-      }
-    });
-  }
+
   if (user) {
     if (isLoading){
       return (<div className="loader">LOADING...<div class="lds-facebook"><div></div><div></div><div></div></div></div>)
@@ -100,6 +94,7 @@ const Home = ({ user, setUser }) => {
           </div>
         </div>
         <p>HOLDINGS</p>
+
         <div className="portfolio-holdings">
           <tc className="portfolio-column-title">Symbol</tc>
 

@@ -15,6 +15,11 @@ const Trade = () => {
   const [trigger, setTrigger] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting,setIsSubmitting]=useState(false);
+  const [volume,setVolume]=useState(0);
+  const [dayHigh,setDayHigh]=useState(0);
+  const [dayLow,setDayLow]=useState(0);
+  const [average,setAverage]=useState(0);
+
   useEffect(() => {
     fetch("/buying_power")
       .then((r) => r.json())
@@ -30,7 +35,21 @@ const Trade = () => {
 
   function handleTickerSubmit(e) {
     e.preventDefault();
+    setIsLoading(true);
     setTicker(e.target.ticker.value);
+    fetch(`https://cloud.iexapis.com/stable/stock/${e.target.ticker.value}/intraday-prices?token=pk_6f4d927f899e4cfe82805039e96fe103`).then(r=>r.json()).then(data=>{
+      let counter=1;
+      while (!data[data.length-counter]){
+        counter++;
+      }
+
+      const vals=data[data.length-counter-1]
+      setVolume(vals.volume)
+      setDayHigh(vals.high);
+      setDayLow(vals.low);
+      setAverage(vals.average);
+    });
+    setIsLoading(false);
   }
 
   function handleActionSubmit(e) {
@@ -119,7 +138,15 @@ const Trade = () => {
               }}
             />
             <div className="symbol-intraday">
-              {/* TO FILL OUT */}
+              <p><span className="symbol-intraday-description">Volume (current)</span> <span className="symbol-intraday-number">{volume.toLocaleString()}</span></p>
+              <p><span className="symbol-intraday-description">Average($)</span> <span className="symbol-intraday-number"> {
+                  average.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}</span></p>
+              <p><span className="symbol-intraday-description">Day's High ($) </span> <span className="symbol-intraday-number"> {
+                  dayHigh.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}</span></p>
+              <p><span className="symbol-intraday-description">Day's Low ($)</span> <span className="symbol-intraday-number"> {
+                  dayLow.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}</span></p>
+
+
             </div>
             </div>
             <SymbolOverview

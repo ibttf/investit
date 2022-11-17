@@ -89,8 +89,27 @@
   margin-top: 2%;
 }
 .symbol-intraday{
-  display: flex;
-  flex-direction: column;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 80px;
+grid-row-gap: 20px;
+margin-right: 20px;
+
+}
+.symbol-intraday > p{ 
+  border-bottom: 1px solid rgb(202, 202, 202);
+  padding-bottom: 20px;
+  font-size: 17px;
+  
+
+}
+.symbol-intraday-number{
+  float:right;
+}
+.symbol-intraday-description{
+  font-weight :bold;
+  font-size: 17px;
 }
 .lookup-form-row-item {
   margin-right: 25%;

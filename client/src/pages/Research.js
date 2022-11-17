@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -11,11 +11,12 @@ import {
 } from "react-tradingview-embed";
 import "../styles/Research.css";
 const Research = () => {
-  const tradingRef = useRef(null);
+  const [isTickerSubmitted,setIsTickerSubmitted]=useState(false);
   const [symbol, setSymbol] = useState("");
   function handleTickerSubmit(e) {
     e.preventDefault();
     setSymbol(e.target.ticker.value);
+    setIsTickerSubmitted(true);
   }
 
   return (
@@ -34,6 +35,9 @@ const Research = () => {
         <button type="submit">
           <FontAwesomeIcon icon={faMagnifyingGlass} />
         </button>
+            <Link to ={`/news/${symbol}`}>
+            <button className={`read-more-button ${isTickerSubmitted ? "": "absent"}`}>Read More</button>
+        </Link>
       </form>
       <div className={`ticker-info ${symbol ? "showing" : "hidden"}`}>
         <div className="stock-overview">
@@ -46,6 +50,7 @@ const Research = () => {
             }}
           />
         </div>
+
         <div className="stock-info-row">
           <div className="stock-info-row-item">
             <CompanyProfile
@@ -71,7 +76,10 @@ const Research = () => {
               }}
             />
           </div>
+
         </div>
+
+
       </div>
       <p>SCREENER</p>
       <div className="stock-info-row screener">
