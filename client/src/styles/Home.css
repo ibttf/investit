@@ -87,3 +87,108 @@
 .account-overview-small-text {
   font-size: 30px;
 }
+
+/* LOADERS */
+.loader {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+.pre-home{
+  margin: 5%;
+  display: flex;
+}
+.pre-home-left{
+  margin: 5% 0;
+
+}
+.pre-home-left > h1{
+  color:white;
+  font-size: 80px;
+  font-weight: bold;
+  
+  width: 100%;
+}
+.pre-home-left > h2{
+  color:#d8d8d8;
+  font-weight: normal;
+}
+.pre-home-right{
+  width: 100%;
+}
+.pre-home-logo{
+  width: 800px;
+  border-radius: 20px;
+}
+.pre-home-logo-back{
+  position: relative;
+  left: 50%;
+  top: 65%;
+  width: 500px;
+}
+.pre-home-logo-front{
+  position: absolute;
+  z-index: 2;
+  right: 15%;
+}
+.blue-blob{
+  width: 400px;
+  height: 500px;
+  background-color: rgb(46, 46, 134);
+  position: absolute;
+  border-radius: 50px;
+  top: 40%;
+  right: 5%;
+}
+.purple-blob{
+    width: 800px;
+  height: 600px;
+  background-color: rgb(66, 66, 124);
+  position: absolute;
+  border-radius: 50px;
+  top: 25%;
+  right: 20%;
+}

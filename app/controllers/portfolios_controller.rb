@@ -10,8 +10,9 @@ class PortfoliosController < ApplicationController
 
     tickers={}
     tickers_value=0;
+    
     portfolio.tickers. each {|ticker| 
-        puts ticker.name
+
         if (!tickers[ticker.name])
             #for each unique ticker name, multiply the shares_owned by the last price of the ticker
             url = URI("https://cloud.iexapis.com/stable/stock/#{ticker.name}/intraday-prices?token=pk_6f4d927f899e4cfe82805039e96fe103")
@@ -24,7 +25,7 @@ class PortfoliosController < ApplicationController
             request["cache-control"] = 'no-cache'
 
             response = http.request(request)
-            last_price= response.read_body.split('"close":')[-3].split(",")[0]
+            last_price= response.read_body.split('"close":')[-4].split(",")[0]
             tickers_value+=(last_price.to_f * ticker.shares_owned)
         end
         tickers[ticker.name]=1
@@ -33,11 +34,12 @@ class PortfoliosController < ApplicationController
     }
     portfolio.update(value: portfolio.buying_power+tickers_value)
     render json: portfolio.buying_power+tickers_value
+
     end
   
     def daily_change
         portfolio=@current_user.portfolios.first
-        puts portfolio.value
+        
         
         portfolio.update(daily_change: ((portfolio.value-10000)/100.round(2)))
         render json: portfolio

@@ -24,23 +24,30 @@
   border: none;
 }
 .symbol-submit{
-  background-color:white;
+  background-color:transparent;
   border: none;
   color: rgb(63, 63, 63);
   font-size: 20px;
   position: relative;
   right: 3%;
 }
+
 .trade-submit {
   position: relative;
 }
 .action-button{
   margin-right: 10px;
+  font-size: 20px;
 }
 .action-button:hover , .lookup-form-row-item > button:hover{
   background-color: rgb(63, 63, 63);
   color: white;
 }
+.action-button:focus{
+    background-color: rgb(63, 63, 63);
+  color: white;
+}
+
 .lookup-form {
   margin: 1% 0%;
   padding: 1px 1% 1% 1%;
@@ -80,6 +87,10 @@
 .lookup-form-row {
   display: flex;
   margin-top: 2%;
+}
+.symbol-intraday{
+  display: flex;
+  flex-direction: column;
 }
 .lookup-form-row-item {
   margin-right: 25%;

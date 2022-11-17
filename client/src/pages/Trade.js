@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { SymbolInfo, SymbolOverview } from "react-tradingview-embed";
+
 const Trade = () => {
   const [ticker, setTicker] = useState("");
   const [action, setAction] = useState("");
@@ -12,15 +13,19 @@ const Trade = () => {
   const [value, setValue] = useState(0);
   const [errors, setErrors] = useState("");
   const [trigger, setTrigger] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-
+  const [isLoading, setIsLoading] = useState(true);
+  const [isSubmitting,setIsSubmitting]=useState(false);
   useEffect(() => {
     fetch("/buying_power")
       .then((r) => r.json())
       .then(setBuyingPower);
     fetch("/account_value")
-      .then((r) => r.json())
-      .then(setValue);
+      .then((r) =>{
+        if (r.ok){
+          setIsLoading(false);
+          r.json().then(setValue)
+        } })
+
   }, [trigger]);
 
   function handleTickerSubmit(e) {
@@ -33,40 +38,46 @@ const Trade = () => {
 
     setQuantity(e.target.quantity.value);
 
-    if (action === "Buy") {
+    if (action === "Buy" && e.target.quantity.value>0) {
       //POSITIVE FETCH
       fetch("/trade", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name: ticker, shares: quantity }),
+        body: JSON.stringify({ name: ticker, shares: e.target.quantity.value }),
       }).then((r) => {
-        setIsLoading(false);
+
         if (r.ok) {
           r.json();
         } else {
           setErrors("Insufficient Funds to Make this Purchase");
         }
       });
-    } else {
+    } else if (action==="Sell"){
       //NEGATIVE FETCH
 
-      fetch("/trade", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name: ticker, shares: 0 - quantity }),
-      }).then((r) => {
-        setIsLoading(false);
-        r.json();
-      });
+        fetch("/trade", {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: ticker, shares: 0 - quantity }),
+        }).then((r) => {
+  
+          if (r.ok) {
+            r.json();
+          } else {
+            setErrors("Error. Please try again later.");
+          }
+        });
     }
   }
-
+  if (isLoading){
+      return (<div className="loader">LOADING...<div class="lds-facebook"><div></div><div></div><div></div></div></div>)
+    }
   return (
-    <div className="trade">
+    <div className="trade" style={{opacity : isSubmitting ? "0.5": "1.0"}} onClick={()=>setIsSubmitting(false)}>
       <div className="account-info">
         <div className="account-info-col">
           <p>Account Value</p>
@@ -92,9 +103,11 @@ const Trade = () => {
           </button>
         </form>
         <form onSubmit={handleActionSubmit}>
+
           <div
             className={`lookup-form-row symbol-info ${ticker ? "" : "hidden"}`}
           >
+            <div className="symbol-left">
             <SymbolInfo
               widgetProps={{
                 symbol: ticker,
@@ -105,6 +118,10 @@ const Trade = () => {
                 locale: "en",
               }}
             />
+            <div className="symbol-intraday">
+              {/* TO FILL OUT */}
+            </div>
+            </div>
             <SymbolOverview
               widgetProps={{
                 symbols: [ticker],
@@ -119,8 +136,8 @@ const Trade = () => {
           <div className="lookup-form-row">
             <div className="lookup-form-row-item">
               <p>ACTION</p>
-              <button className="action-button" onClick={()=>setAction("Buy")}>Buy</button>
-              <button className="action-button"  onClick={()=>setAction("Sell")}>Sell</button>
+              <button className="action-button" type="button" onClick={()=>setAction("Buy")}>Buy</button>
+              <button className="action-button" type="button"  onClick={()=>setAction("Sell")}>Sell</button>
             </div>
             <div className="lookup-form-row-item">
               <p>QUANTITY</p>
@@ -129,9 +146,10 @@ const Trade = () => {
           </div>
           <div className="lookup-form-row">
             <div className="lookup-form-row-item">
-              <button type="submit" onClick={() => setTrigger(!trigger)}>
+              <button type="submit" onClick={() =>{setIsSubmitting(true); setTrigger(!trigger)}}>
                 SUBMIT ORDER
               </button>
+
               <p className={errors ? "error" : "error hidden"}>{errors}</p>
             </div>
           </div>
