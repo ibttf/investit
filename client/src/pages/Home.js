@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Chart from "../components/Chart";
-
+import one from "../styles/home1.png"
+import two from "../styles/home2.png"
 import "../styles/Home.css";
 const Home = ({ user, setUser }) => {
   const [tickers, setTickers] = useState([]);
@@ -8,14 +9,20 @@ const Home = ({ user, setUser }) => {
   const [buyingPower, setBuyingPower] = useState(0);
   const [dailyChange, setDailyChange] = useState(0);
   const [totalChange, setTotalChange] = useState(0);
+    const [isLoading,setIsLoading]=useState(true);
   useEffect(() => {
     fetch("/tickers")
       .then((r) => r.json())
-      .then((data) => setTickers([...data]));
+      .then((data) => setTickers(data));
 
     fetch("/account_value")
-      .then((r) => r.json())
-      .then((data) => setValue(data));
+      .then((r) => {
+        if (r.ok){
+          setIsLoading(false);
+          r.json().then((data) => setValue(data));
+        }
+      })
+
     fetch("/buying_power")
       .then((r) => r.json())
       .then((data) => setBuyingPower(data));
@@ -38,6 +45,9 @@ const Home = ({ user, setUser }) => {
     });
   }
   if (user) {
+    if (isLoading){
+      return (<div className="loader">LOADING...<div class="lds-facebook"><div></div><div></div><div></div></div></div>)
+    }
     //IF USER IS LOGGED IN
     return (
       <div className="home">
@@ -121,7 +131,10 @@ const Home = ({ user, setUser }) => {
                   >
                     {Math.round(ticker.daily_change * 100) / 100}%
                   </p>
-                  <p className="ticker-info">${ticker.purchase_price}</p>
+                  <p className="ticker-info">{"$" +
+                      ticker.purchase_price
+                        .toFixed(2)
+                        .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}</p>
                   <p className="ticker-info">{ticker.shares_owned}</p>
                   <p className="ticker-info">
                     {"$" +
@@ -181,7 +194,19 @@ const Home = ({ user, setUser }) => {
   }
 
   return <div className="home">
-    
+    <div className="pre-home">
+      <div className="pre-home-left">
+        <h1>Start Investing Today</h1>
+        <h2>Start with a virtual portfolio of $10,000 and build your way up.</h2>
+      </div>
+      <div className="pre-home-right">
+        <img src={two} className="pre-home-logo pre-home-logo-front"></img>
+        <div className="blue-blob"></div>
+                <div className="purple-blob"></div>
+        <img src={one} className="pre-home-logo pre-home-logo-back"></img>
+
+      </div>
+    </div>
   </div>;
 };
 

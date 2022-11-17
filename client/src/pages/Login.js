@@ -3,6 +3,7 @@ import { useState } from "react";
 import LoginForm from "../components/LoginForm";
 import SignUpForm from "../components/SignUpForm";
 import { Link } from "react-router-dom";
+import bg from "../styles/login-bg.jpg"
 import "../styles/Login.css";
 function Login({ onLogin }) {
 
@@ -10,7 +11,9 @@ function Login({ onLogin }) {
 
   return (
     <div className="login">
-      <div className="login-left"></div>
+      <div className="login-left">
+        <img src={bg} style={{opacity:0.9}}></img>
+      </div> 
       <div className="login-right">
         <Link to="/"></Link>
 
