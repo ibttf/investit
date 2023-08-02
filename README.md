@@ -13,11 +13,6 @@ A website designed for people to be able to create a stock portfolio and researc
 - [Project Status](#project-status)
 
 
-## General Information
-
-This project was the final three week project for Flatiron School, focused on implementing a React frontend and Rails
-backend. Authentication requires users to login and protects data access.
-
 ## GitHub Repo
 
 - [Monorepo - frontend and backend servers](https://github.com/roylee0912/investit)
